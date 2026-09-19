@@ -1,0 +1,121 @@
+[
+  {
+    "jornada": 1,
+    "fechaInicio": "10-09-2026",
+    "fechaFin": "15-09-2026",
+    "ronda": 1,
+    "rondaNombre": "Ronda previa"
+  },
+  {
+    "jornada": 2,
+    "fechaInicio": "18-09-2026",
+    "fechaFin": "22-09-2026",
+    "ronda": 1,
+    "rondaNombre": "Ronda previa"
+  },
+  {
+    "jornada": 3,
+    "fechaInicio": "25-09-2026",
+    "fechaFin": "29-09-2026",
+    "ronda": 2,
+    "rondaNombre": "64avos de final"
+  },
+  {
+    "jornada": 4,
+    "fechaInicio": "02-10-2026",
+    "fechaFin": "06-10-2026",
+    "ronda": 2,
+    "rondaNombre": "64avos de final"
+  },
+  {
+    "jornada": 5,
+    "fechaInicio": "09-10-2026",
+    "fechaFin": "13-10-2026",
+    "ronda": 3,
+    "rondaNombre": "32avos de final"
+  },
+  {
+    "jornada": 6,
+    "fechaInicio": "16-10-2026",
+    "fechaFin": "20-10-2026",
+    "ronda": 3,
+    "rondaNombre": "32avos de final"
+  },
+  {
+    "jornada": 7,
+    "fechaInicio": "23-10-2026",
+    "fechaFin": "27-10-2026",
+    "ronda": 4,
+    "rondaNombre": "16avos de final"
+  },
+  {
+    "jornada": 8,
+    "fechaInicio": "30-10-2026",
+    "fechaFin": "03-11-2026",
+    "ronda": 4,
+    "rondaNombre": "16avos de final"
+  },
+  {
+    "jornada": 9,
+    "fechaInicio": "06-11-2026",
+    "fechaFin": "10-11-2026",
+    "ronda": 5,
+    "rondaNombre": "8avos de final"
+  },
+  {
+    "jornada": 10,
+    "fechaInicio": "13-11-2026",
+    "fechaFin": "17-11-2026",
+    "ronda": 5,
+    "rondaNombre": "8avos de final"
+  },
+  {
+    "jornada": 11,
+    "fechaInicio": "20-11-2026",
+    "fechaFin": "24-11-2026",
+    "ronda": 6,
+    "rondaNombre": "Cuartos de final"
+  },
+  {
+    "jornada": 12,
+    "fechaInicio": "26-11-2026",
+    "fechaFin": "01-12-2026",
+    "ronda": 6,
+    "rondaNombre": "Cuartos de final"
+  },
+  {
+    "jornada": 13,
+    "fechaInicio": "04-12-2026",
+    "fechaFin": "08-12-2026",
+    "ronda": 7,
+    "rondaNombre": "Semifinales"
+  },
+  {
+    "jornada": 14,
+    "fechaInicio": "11-12-2026",
+    "fechaFin": "15-12-2026",
+    "ronda": 7,
+    "rondaNombre": "Semifinales"
+  },
+  {
+    "jornada": 15,
+    "fechaInicio": "18-12-2026",
+    "fechaFin": "22-12-2026",
+    "ronda": 8,
+    "rondaNombre": "Final"
+  },
+  {
+    "jornada": 16,
+    "fechaInicio": "25-12-2026",
+    "fechaFin": "29-12-2026",
+    "ronda": 8,
+    "rondaNombre": "Final"
+  },
+  {
+    "jornada": 17,
+    "fechaInicio": "01-01-2027",
+    "fechaFin": "05-01-2027",
+    "ronda": 8,
+    "rondaNombre": "Final"
+  }
+]

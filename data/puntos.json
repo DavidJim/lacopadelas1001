@@ -1,0 +1,2862 @@
+[
+  {
+    "jugadorId": 16242,
+    "jornada": 1,
+    "puntos": 28.55
+  },
+  {
+    "jugadorId": 16242,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 12894,
+    "jornada": 1,
+    "puntos": 23.5
+  },
+  {
+    "jugadorId": 8625,
+    "jornada": 1,
+    "puntos": 15.4
+  },
+  {
+    "jugadorId": 15516,
+    "jornada": 1,
+    "puntos": 15.35
+  },
+  {
+    "jugadorId": 14668,
+    "jornada": 1,
+    "puntos": 10.7
+  },
+  {
+    "jugadorId": 6038,
+    "jornada": 1,
+    "puntos": 5.65
+  },
+  {
+    "jugadorId": 20048,
+    "jornada": 1,
+    "puntos": 0.0
+  },
+  {
+    "jugadorId": 20064,
+    "jornada": 1,
+    "puntos": 0.0
+  },
+  {
+    "jugadorId": 16890,
+    "jornada": 1,
+    "puntos": 37.1
+  },
+  {
+    "jugadorId": 19247,
+    "jornada": 1,
+    "puntos": 32.7
+  },
+  {
+    "jugadorId": 15604,
+    "jornada": 1,
+    "puntos": 25.1
+  },
+  {
+    "jugadorId": 17004,
+    "jornada": 1,
+    "puntos": 15.5
+  },
+  {
+    "jugadorId": 19349,
+    "jornada": 1,
+    "puntos": 9.8
+  },
+  {
+    "jugadorId": 20200,
+    "jornada": 1,
+    "puntos": 8.8
+  },
+  {
+    "jugadorId": 19248,
+    "jornada": 1,
+    "puntos": 8.3
+  },
+  {
+    "jugadorId": 18441,
+    "jornada": 1,
+    "puntos": 5.4
+  },
+  {
+    "jugadorId": 20153,
+    "jornada": 1,
+    "puntos": 4.1
+  },
+  {
+    "jugadorId": 17762,
+    "jornada": 1,
+    "puntos": 2.3
+  },
+  {
+    "jugadorId": 18174,
+    "jornada": 1,
+    "puntos": 0.9
+  },
+  {
+    "jugadorId": 18523,
+    "jornada": 1,
+    "puntos": 0.0
+  },
+  {
+    "jugadorId": 16281,
+    "jornada": 1,
+    "puntos": 21.2
+  },
+  {
+    "jugadorId": 17738,
+    "jornada": 1,
+    "puntos": 19.3
+  },
+  {
+    "jugadorId": 18407,
+    "jornada": 1,
+    "puntos": 19.2
+  },
+  {
+    "jugadorId": 17779,
+    "jornada": 1,
+    "puntos": 12.4
+  },
+  {
+    "jugadorId": 14949,
+    "jornada": 1,
+    "puntos": 12.2
+  },
+  {
+    "jugadorId": 19294,
+    "jornada": 1,
+    "puntos": 11.3
+  },
+  {
+    "jugadorId": 16842,
+    "jornada": 1,
+    "puntos": 10.1
+  },
+  {
+    "jugadorId": 17633,
+    "jornada": 1,
+    "puntos": 9.9
+  },
+  {
+    "jugadorId": 9380,
+    "jornada": 1,
+    "puntos": 9.2
+  },
+  {
+    "jugadorId": 18361,
+    "jornada": 1,
+    "puntos": 6.0
+  },
+  {
+    "jugadorId": 17018,
+    "jornada": 1,
+    "puntos": 5.7
+  },
+  {
+    "jugadorId": 17622,
+    "jornada": 1,
+    "puntos": 5.7
+  },
+  {
+    "jugadorId": 10295,
+    "jornada": 1,
+    "puntos": 5.6
+  },
+  {
+    "jugadorId": 18363,
+    "jornada": 1,
+    "puntos": 4.8
+  },
+  {
+    "jugadorId": 17593,
+    "jornada": 1,
+    "puntos": 3.7
+  },
+  {
+    "jugadorId": 17725,
+    "jornada": 1,
+    "puntos": 3.1
+  },
+  {
+    "jugadorId": 16835,
+    "jornada": 1,
+    "puntos": 0.0
+  },
+  {
+    "jugadorId": 20199,
+    "jornada": 1,
+    "puntos": 0.0
+  },
+  {
+    "jugadorId": 17627,
+    "jornada": 1,
+    "puntos": 0.0
+  },
+  {
+    "jugadorId": 12904,
+    "jornada": 1,
+    "puntos": 15.8
+  },
+  {
+    "jugadorId": 19242,
+    "jornada": 1,
+    "puntos": 13.3
+  },
+  {
+    "jugadorId": 9360,
+    "jornada": 1,
+    "puntos": 13.1
+  },
+  {
+    "jugadorId": 17626,
+    "jornada": 1,
+    "puntos": 12.3
+  },
+  {
+    "jugadorId": 19404,
+    "jornada": 1,
+    "puntos": 7.2
+  },
+  {
+    "jugadorId": 12140,
+    "jornada": 1,
+    "puntos": 3.2
+  },
+  {
+    "jugadorId": 15679,
+    "jornada": 1,
+    "puntos": 2.6
+  },
+  {
+    "jugadorId": 16430,
+    "jornada": 1,
+    "puntos": 2.5
+  },
+  {
+    "jugadorId": 19329,
+    "jornada": 1,
+    "puntos": 0.0
+  },
+  {
+    "jugadorId": 18364,
+    "jornada": 1,
+    "puntos": 0.0
+  },
+  {
+    "jugadorId": 19244,
+    "jornada": 1,
+    "puntos": 2.1
+  },
+  {
+    "jugadorId": 15522,
+    "jornada": 1,
+    "puntos": 27.35
+  },
+  {
+    "jugadorId": 17589,
+    "jornada": 1,
+    "puntos": 21.2
+  },
+  {
+    "jugadorId": 12102,
+    "jornada": 1,
+    "puntos": 19.5
+  },
+  {
+    "jugadorId": 12919,
+    "jornada": 1,
+    "puntos": 17.05
+  },
+  {
+    "jugadorId": 12159,
+    "jornada": 1,
+    "puntos": 16.15
+  },
+  {
+    "jugadorId": 18362,
+    "jornada": 1,
+    "puntos": 4.75
+  },
+  {
+    "jugadorId": 5336,
+    "jornada": 1,
+    "puntos": 0.0
+  },
+  {
+    "jugadorId": 13017,
+    "jornada": 1,
+    "puntos": 0.0
+  },
+  {
+    "jugadorId": 19415,
+    "jornada": 1,
+    "puntos": 0.0
+  },
+  {
+    "jugadorId": 12042,
+    "jornada": 1,
+    "puntos": 35.3
+  },
+  {
+    "jugadorId": 17612,
+    "jornada": 1,
+    "puntos": 34.6
+  },
+  {
+    "jugadorId": 14716,
+    "jornada": 1,
+    "puntos": 28.9
+  },
+  {
+    "jugadorId": 16282,
+    "jornada": 1,
+    "puntos": 24.2
+  },
+  {
+    "jugadorId": 17756,
+    "jornada": 1,
+    "puntos": 18.8
+  },
+  {
+    "jugadorId": 19290,
+    "jornada": 1,
+    "puntos": 8.1
+  },
+  {
+    "jugadorId": 19303,
+    "jornada": 1,
+    "puntos": 7.0
+  },
+  {
+    "jugadorId": 19351,
+    "jornada": 1,
+    "puntos": 5.0
+  },
+  {
+    "jugadorId": 18449,
+    "jornada": 1,
+    "puntos": 3.7
+  },
+  {
+    "jugadorId": 15555,
+    "jornada": 1,
+    "puntos": 3.6
+  },
+  {
+    "jugadorId": 19359,
+    "jornada": 1,
+    "puntos": 0.0
+  },
+  {
+    "jugadorId": 17413,
+    "jornada": 1,
+    "puntos": 0.0
+  },
+  {
+    "jugadorId": 19421,
+    "jornada": 1,
+    "puntos": 0.0
+  },
+  {
+    "jugadorId": 16896,
+    "jornada": 1,
+    "puntos": 36.7
+  },
+  {
+    "jugadorId": 16373,
+    "jornada": 1,
+    "puntos": 30.7
+  },
+  {
+    "jugadorId": 20101,
+    "jornada": 1,
+    "puntos": 15.9
+  },
+  {
+    "jugadorId": 19266,
+    "jornada": 1,
+    "puntos": 15.5
+  },
+  {
+    "jugadorId": 15523,
+    "jornada": 1,
+    "puntos": 15.4
+  },
+  {
+    "jugadorId": 15585,
+    "jornada": 1,
+    "puntos": 8.9
+  },
+  {
+    "jugadorId": 16830,
+    "jornada": 1,
+    "puntos": 8.5
+  },
+  {
+    "jugadorId": 19288,
+    "jornada": 1,
+    "puntos": 8.2
+  },
+  {
+    "jugadorId": 20052,
+    "jornada": 1,
+    "puntos": 7.8
+  },
+  {
+    "jugadorId": 19286,
+    "jornada": 1,
+    "puntos": 7.3
+  },
+  {
+    "jugadorId": 16859,
+    "jornada": 1,
+    "puntos": 5.8
+  },
+  {
+    "jugadorId": 17674,
+    "jornada": 1,
+    "puntos": 5.0
+  },
+  {
+    "jugadorId": 15544,
+    "jornada": 1,
+    "puntos": 4.6
+  },
+  {
+    "jugadorId": 18536,
+    "jornada": 1,
+    "puntos": 4.2
+  },
+  {
+    "jugadorId": 16250,
+    "jornada": 1,
+    "puntos": 3.2
+  },
+  {
+    "jugadorId": 13795,
+    "jornada": 1,
+    "puntos": 3.1
+  },
+  {
+    "jugadorId": 17558,
+    "jornada": 1,
+    "puntos": 1.8
+  },
+  {
+    "jugadorId": 16236,
+    "jornada": 1,
+    "puntos": 1.2
+  },
+  {
+    "jugadorId": 18392,
+    "jornada": 1,
+    "puntos": 1.1
+  },
+  {
+    "jugadorId": 18466,
+    "jornada": 1,
+    "puntos": 0.5
+  },
+  {
+    "jugadorId": 19337,
+    "jornada": 1,
+    "puntos": 0.0
+  },
+  {
+    "jugadorId": 13845,
+    "jornada": 1,
+    "puntos": 23.8
+  },
+  {
+    "jugadorId": 17681,
+    "jornada": 1,
+    "puntos": 14.8
+  },
+  {
+    "jugadorId": 17675,
+    "jornada": 1,
+    "puntos": 12.5
+  },
+  {
+    "jugadorId": 13853,
+    "jornada": 1,
+    "puntos": 11.5
+  },
+  {
+    "jugadorId": 19305,
+    "jornada": 1,
+    "puntos": 6.1
+  },
+  {
+    "jugadorId": 16933,
+    "jornada": 1,
+    "puntos": 4.6
+  },
+  {
+    "jugadorId": 13761,
+    "jornada": 1,
+    "puntos": 41.0
+  },
+  {
+    "jugadorId": 18383,
+    "jornada": 1,
+    "puntos": 39.95
+  },
+  {
+    "jugadorId": 17602,
+    "jornada": 1,
+    "puntos": 38.05
+  },
+  {
+    "jugadorId": 13775,
+    "jornada": 1,
+    "puntos": 31.2
+  },
+  {
+    "jugadorId": 12079,
+    "jornada": 1,
+    "puntos": 21.25
+  },
+  {
+    "jugadorId": 15532,
+    "jornada": 1,
+    "puntos": 18.7
+  },
+  {
+    "jugadorId": 15533,
+    "jornada": 1,
+    "puntos": 0.0
+  },
+  {
+    "jugadorId": 20125,
+    "jornada": 1,
+    "puntos": 0.0
+  },
+  {
+    "jugadorId": 15601,
+    "jornada": 1,
+    "puntos": 32.4
+  },
+  {
+    "jugadorId": 17603,
+    "jornada": 1,
+    "puntos": 29.3
+  },
+  {
+    "jugadorId": 16361,
+    "jornada": 1,
+    "puntos": 23.7
+  },
+  {
+    "jugadorId": 19543,
+    "jornada": 1,
+    "puntos": 22.4
+  },
+  {
+    "jugadorId": 20065,
+    "jornada": 1,
+    "puntos": 13.0
+  },
+  {
+    "jugadorId": 16993,
+    "jornada": 1,
+    "puntos": 9.0
+  },
+  {
+    "jugadorId": 16839,
+    "jornada": 1,
+    "puntos": 8.9
+  },
+  {
+    "jugadorId": 18430,
+    "jornada": 1,
+    "puntos": 7.2
+  },
+  {
+    "jugadorId": 14767,
+    "jornada": 1,
+    "puntos": 3.8
+  },
+  {
+    "jugadorId": 16875,
+    "jornada": 1,
+    "puntos": 3.1
+  },
+  {
+    "jugadorId": 18460,
+    "jornada": 1,
+    "puntos": 0.3
+  },
+  {
+    "jugadorId": 20149,
+    "jornada": 1,
+    "puntos": 0.0
+  },
+  {
+    "jugadorId": 19365,
+    "jornada": 1,
+    "puntos": 0.0
+  },
+  {
+    "jugadorId": 18787,
+    "jornada": 1,
+    "puntos": 35.8
+  },
+  {
+    "jugadorId": 17595,
+    "jornada": 1,
+    "puntos": 29.0
+  },
+  {
+    "jugadorId": 13764,
+    "jornada": 1,
+    "puntos": 23.0
+  },
+  {
+    "jugadorId": 17671,
+    "jornada": 1,
+    "puntos": 10.6
+  },
+  {
+    "jugadorId": 19258,
+    "jornada": 1,
+    "puntos": 10.5
+  },
+  {
+    "jugadorId": 19335,
+    "jornada": 1,
+    "puntos": 9.5
+  },
+  {
+    "jugadorId": 16947,
+    "jornada": 1,
+    "puntos": 9.0
+  },
+  {
+    "jugadorId": 18384,
+    "jornada": 1,
+    "puntos": 7.2
+  },
+  {
+    "jugadorId": 19866,
+    "jornada": 1,
+    "puntos": 7.1
+  },
+  {
+    "jugadorId": 16823,
+    "jornada": 1,
+    "puntos": 5.5
+  },
+  {
+    "jugadorId": 18381,
+    "jornada": 1,
+    "puntos": 4.3
+  },
+  {
+    "jugadorId": 20098,
+    "jornada": 1,
+    "puntos": 2.1
+  },
+  {
+    "jugadorId": 16248,
+    "jornada": 1,
+    "puntos": 0.0
+  },
+  {
+    "jugadorId": 18373,
+    "jornada": 1,
+    "puntos": 0.0
+  },
+  {
+    "jugadorId": 20112,
+    "jornada": 1,
+    "puntos": 0.0
+  },
+  {
+    "jugadorId": 20141,
+    "jornada": 1,
+    "puntos": 0.0
+  },
+  {
+    "jugadorId": 17827,
+    "jornada": 1,
+    "puntos": 0.0
+  },
+  {
+    "jugadorId": 16895,
+    "jornada": 1,
+    "puntos": 35.5
+  },
+  {
+    "jugadorId": 17585,
+    "jornada": 1,
+    "puntos": 23.0
+  },
+  {
+    "jugadorId": 15573,
+    "jornada": 1,
+    "puntos": 13.5
+  },
+  {
+    "jugadorId": 13829,
+    "jornada": 1,
+    "puntos": 12.9
+  },
+  {
+    "jugadorId": 12088,
+    "jornada": 1,
+    "puntos": 8.6
+  },
+  {
+    "jugadorId": 16314,
+    "jornada": 1,
+    "puntos": 8.5
+  },
+  {
+    "jugadorId": 11261,
+    "jornada": 1,
+    "puntos": 6.8
+  },
+  {
+    "jugadorId": 20159,
+    "jornada": 1,
+    "puntos": 3.3
+  },
+  {
+    "jugadorId": 14734,
+    "jornada": 1,
+    "puntos": 2.7
+  },
+  {
+    "jugadorId": 16256,
+    "jornada": 1,
+    "puntos": 0.0
+  },
+  {
+    "jugadorId": 19267,
+    "jornada": 1,
+    "puntos": 0.0
+  },
+  {
+    "jugadorId": 18477,
+    "jornada": 1,
+    "puntos": 0.0
+  },
+  {
+    "jugadorId": 19321,
+    "jornada": 1,
+    "puntos": 29.3
+  },
+  {
+    "jugadorId": 19253,
+    "jornada": 1,
+    "puntos": 27.9
+  },
+  {
+    "jugadorId": 16845,
+    "jornada": 1,
+    "puntos": 17.9
+  },
+  {
+    "jugadorId": 18357,
+    "jornada": 1,
+    "puntos": 11.6
+  },
+  {
+    "jugadorId": 9372,
+    "jornada": 1,
+    "puntos": 10.45
+  },
+  {
+    "jugadorId": 14664,
+    "jornada": 1,
+    "puntos": -0.2
+  },
+  {
+    "jugadorId": 11183,
+    "jornada": 1,
+    "puntos": 0.0
+  },
+  {
+    "jugadorId": 18387,
+    "jornada": 1,
+    "puntos": 0.0
+  },
+  {
+    "jugadorId": 16834,
+    "jornada": 1,
+    "puntos": 19.8
+  },
+  {
+    "jugadorId": 16241,
+    "jornada": 1,
+    "puntos": 14.8
+  },
+  {
+    "jugadorId": 16339,
+    "jornada": 1,
+    "puntos": 14.5
+  },
+  {
+    "jugadorId": 19361,
+    "jornada": 1,
+    "puntos": 13.1
+  },
+  {
+    "jugadorId": 17167,
+    "jornada": 1,
+    "puntos": 11.9
+  },
+  {
+    "jugadorId": 17617,
+    "jornada": 1,
+    "puntos": 10.6
+  },
+  {
+    "jugadorId": 13111,
+    "jornada": 1,
+    "puntos": 10.0
+  },
+  {
+    "jugadorId": 18456,
+    "jornada": 1,
+    "puntos": 4.0
+  },
+  {
+    "jugadorId": 18534,
+    "jornada": 1,
+    "puntos": -0.6
+  },
+  {
+    "jugadorId": 12965,
+    "jornada": 1,
+    "puntos": 0.0
+  },
+  {
+    "jugadorId": 16246,
+    "jornada": 1,
+    "puntos": 0.0
+  },
+  {
+    "jugadorId": 17029,
+    "jornada": 1,
+    "puntos": 0.0
+  },
+  {
+    "jugadorId": 18515,
+    "jornada": 1,
+    "puntos": 0.0
+  },
+  {
+    "jugadorId": 19272,
+    "jornada": 1,
+    "puntos": 0.0
+  },
+  {
+    "jugadorId": 19380,
+    "jornada": 1,
+    "puntos": 0.0
+  },
+  {
+    "jugadorId": 20249,
+    "jornada": 1,
+    "puntos": 0.0
+  },
+  {
+    "jugadorId": 15540,
+    "jornada": 1,
+    "puntos": 31.2
+  },
+  {
+    "jugadorId": 16824,
+    "jornada": 1,
+    "puntos": 31.2
+  },
+  {
+    "jugadorId": 18587,
+    "jornada": 1,
+    "puntos": 19.9
+  },
+  {
+    "jugadorId": 20074,
+    "jornada": 1,
+    "puntos": 14.4
+  },
+  {
+    "jugadorId": 18369,
+    "jornada": 1,
+    "puntos": 12.9
+  },
+  {
+    "jugadorId": 13008,
+    "jornada": 1,
+    "puntos": 9.1
+  },
+  {
+    "jugadorId": 17724,
+    "jornada": 1,
+    "puntos": 7.0
+  },
+  {
+    "jugadorId": 20115,
+    "jornada": 1,
+    "puntos": 6.6
+  },
+  {
+    "jugadorId": 18498,
+    "jornada": 1,
+    "puntos": 6.3
+  },
+  {
+    "jugadorId": 14694,
+    "jornada": 1,
+    "puntos": 5.6
+  },
+  {
+    "jugadorId": 15658,
+    "jornada": 1,
+    "puntos": 4.7
+  },
+  {
+    "jugadorId": 17635,
+    "jornada": 1,
+    "puntos": 4.7
+  },
+  {
+    "jugadorId": 20105,
+    "jornada": 1,
+    "puntos": 4.5
+  },
+  {
+    "jugadorId": 20075,
+    "jornada": 1,
+    "puntos": 3.5
+  },
+  {
+    "jugadorId": 15751,
+    "jornada": 1,
+    "puntos": 0.0
+  },
+  {
+    "jugadorId": 16941,
+    "jornada": 1,
+    "puntos": 0.0
+  },
+  {
+    "jugadorId": 17613,
+    "jornada": 1,
+    "puntos": 0.0
+  },
+  {
+    "jugadorId": 20181,
+    "jornada": 1,
+    "puntos": 0.0
+  },
+  {
+    "jugadorId": 20062,
+    "jornada": 1,
+    "puntos": 0.0
+  },
+  {
+    "jugadorId": 16927,
+    "jornada": 1,
+    "puntos": 34.8
+  },
+  {
+    "jugadorId": 14677,
+    "jornada": 1,
+    "puntos": 17.6
+  },
+  {
+    "jugadorId": 16036,
+    "jornada": 1,
+    "puntos": 17.4
+  },
+  {
+    "jugadorId": 20071,
+    "jornada": 1,
+    "puntos": 8.2
+  },
+  {
+    "jugadorId": 16853,
+    "jornada": 1,
+    "puntos": 5.8
+  },
+  {
+    "jugadorId": 18475,
+    "jornada": 1,
+    "puntos": 2.9
+  },
+  {
+    "jugadorId": 15581,
+    "jornada": 1,
+    "puntos": 28.75
+  },
+  {
+    "jugadorId": 17045,
+    "jornada": 1,
+    "puntos": 25.15
+  },
+  {
+    "jugadorId": 3452,
+    "jornada": 1,
+    "puntos": 14.75
+  },
+  {
+    "jugadorId": 13758,
+    "jornada": 1,
+    "puntos": 13.8
+  },
+  {
+    "jugadorId": 13770,
+    "jornada": 1,
+    "puntos": 0.65
+  },
+  {
+    "jugadorId": 18479,
+    "jornada": 1,
+    "puntos": 20.3
+  },
+  {
+    "jugadorId": 12892,
+    "jornada": 1,
+    "puntos": 13.8
+  },
+  {
+    "jugadorId": 17137,
+    "jornada": 1,
+    "puntos": 10.3
+  },
+  {
+    "jugadorId": 13778,
+    "jornada": 1,
+    "puntos": 9.0
+  },
+  {
+    "jugadorId": 20118,
+    "jornada": 1,
+    "puntos": 8.0
+  },
+  {
+    "jugadorId": 20063,
+    "jornada": 1,
+    "puntos": 7.8
+  },
+  {
+    "jugadorId": 15904,
+    "jornada": 1,
+    "puntos": 4.1
+  },
+  {
+    "jugadorId": 16480,
+    "jornada": 1,
+    "puntos": 2.8
+  },
+  {
+    "jugadorId": 17625,
+    "jornada": 1,
+    "puntos": 0.3
+  },
+  {
+    "jugadorId": 19521,
+    "jornada": 1,
+    "puntos": 0.0
+  },
+  {
+    "jugadorId": 20271,
+    "jornada": 1,
+    "puntos": 0.0
+  },
+  {
+    "jugadorId": 17667,
+    "jornada": 1,
+    "puntos": 0.0
+  },
+  {
+    "jugadorId": 18278,
+    "jornada": 1,
+    "puntos": 0.0
+  },
+  {
+    "jugadorId": 17606,
+    "jornada": 1,
+    "puntos": 28.2
+  },
+  {
+    "jugadorId": 14702,
+    "jornada": 1,
+    "puntos": 18.0
+  },
+  {
+    "jugadorId": 17792,
+    "jornada": 1,
+    "puntos": 15.3
+  },
+  {
+    "jugadorId": 16798,
+    "jornada": 1,
+    "puntos": 13.9
+  },
+  {
+    "jugadorId": 12106,
+    "jornada": 1,
+    "puntos": 13.0
+  },
+  {
+    "jugadorId": 19261,
+    "jornada": 1,
+    "puntos": 11.3
+  },
+  {
+    "jugadorId": 18395,
+    "jornada": 1,
+    "puntos": 9.0
+  },
+  {
+    "jugadorId": 15603,
+    "jornada": 1,
+    "puntos": 8.8
+  },
+  {
+    "jugadorId": 12926,
+    "jornada": 1,
+    "puntos": 8.3
+  },
+  {
+    "jugadorId": 16253,
+    "jornada": 1,
+    "puntos": 8.3
+  },
+  {
+    "jugadorId": 14706,
+    "jornada": 1,
+    "puntos": 8.0
+  },
+  {
+    "jugadorId": 12970,
+    "jornada": 1,
+    "puntos": 5.5
+  },
+  {
+    "jugadorId": 20038,
+    "jornada": 1,
+    "puntos": 4.0
+  },
+  {
+    "jugadorId": 20058,
+    "jornada": 1,
+    "puntos": 2.5
+  },
+  {
+    "jugadorId": 17243,
+    "jornada": 1,
+    "puntos": 1.4
+  },
+  {
+    "jugadorId": 13806,
+    "jornada": 1,
+    "puntos": 0.0
+  },
+  {
+    "jugadorId": 14661,
+    "jornada": 1,
+    "puntos": 0.0
+  },
+  {
+    "jugadorId": 15531,
+    "jornada": 1,
+    "puntos": 0.0
+  },
+  {
+    "jugadorId": 18435,
+    "jornada": 1,
+    "puntos": 0.0
+  },
+  {
+    "jugadorId": 20095,
+    "jornada": 1,
+    "puntos": 0.0
+  },
+  {
+    "jugadorId": 20120,
+    "jornada": 1,
+    "puntos": 0.0
+  },
+  {
+    "jugadorId": 13813,
+    "jornada": 1,
+    "puntos": 29.7
+  },
+  {
+    "jugadorId": 20037,
+    "jornada": 1,
+    "puntos": 14.4
+  },
+  {
+    "jugadorId": 16937,
+    "jornada": 1,
+    "puntos": 8.6
+  },
+  {
+    "jugadorId": 17639,
+    "jornada": 1,
+    "puntos": 5.8
+  },
+  {
+    "jugadorId": 18484,
+    "jornada": 1,
+    "puntos": 5.3
+  },
+  {
+    "jugadorId": 13023,
+    "jornada": 1,
+    "puntos": 5.2
+  },
+  {
+    "jugadorId": 19270,
+    "jornada": 1,
+    "puntos": 3.8
+  },
+  {
+    "jugadorId": 17274,
+    "jornada": 1,
+    "puntos": 0.0
+  },
+  {
+    "jugadorId": 19326,
+    "jornada": 1,
+    "puntos": 0.0
+  },
+  {
+    "jugadorId": 20107,
+    "jornada": 1,
+    "puntos": 0.0
+  },
+  {
+    "jugadorId": 18372,
+    "jornada": 1,
+    "puntos": 19.3
+  },
+  {
+    "jugadorId": 19243,
+    "jornada": 1,
+    "puntos": 13.1
+  },
+  {
+    "jugadorId": 20137,
+    "jornada": 1,
+    "puntos": 0.0
+  },
+  {
+    "jugadorId": 14736,
+    "jornada": 1,
+    "puntos": 13.8
+  },
+  {
+    "jugadorId": 19509,
+    "jornada": 1,
+    "puntos": 11.6
+  },
+  {
+    "jugadorId": 16882,
+    "jornada": 1,
+    "puntos": 4.7
+  },
+  {
+    "jugadorId": 14759,
+    "jornada": 1,
+    "puntos": 4.4
+  },
+  {
+    "jugadorId": 17624,
+    "jornada": 1,
+    "puntos": 4.4
+  },
+  {
+    "jugadorId": 20225,
+    "jornada": 1,
+    "puntos": 1.6
+  },
+  {
+    "jugadorId": 17227,
+    "jornada": 1,
+    "puntos": 0.0
+  },
+  {
+    "jugadorId": 18482,
+    "jornada": 1,
+    "puntos": 0.0
+  },
+  {
+    "jugadorId": 20189,
+    "jornada": 1,
+    "puntos": 0.0
+  },
+  {
+    "jugadorId": 10252,
+    "jornada": 1,
+    "puntos": 16.9
+  },
+  {
+    "jugadorId": 20109,
+    "jornada": 1,
+    "puntos": 16.4
+  },
+  {
+    "jugadorId": 11329,
+    "jornada": 1,
+    "puntos": 15.5
+  },
+  {
+    "jugadorId": 16869,
+    "jornada": 1,
+    "puntos": 8.8
+  },
+  {
+    "jugadorId": 19347,
+    "jornada": 1,
+    "puntos": 8.1
+  },
+  {
+    "jugadorId": 20044,
+    "jornada": 1,
+    "puntos": 7.8
+  },
+  {
+    "jugadorId": 17740,
+    "jornada": 1,
+    "puntos": 6.2
+  },
+  {
+    "jugadorId": 14746,
+    "jornada": 1,
+    "puntos": 3.4
+  },
+  {
+    "jugadorId": 19346,
+    "jornada": 1,
+    "puntos": -0.3
+  },
+  {
+    "jugadorId": 13776,
+    "jornada": 1,
+    "puntos": 0.0
+  },
+  {
+    "jugadorId": 16326,
+    "jornada": 1,
+    "puntos": 0.0
+  },
+  {
+    "jugadorId": 16293,
+    "jornada": 1,
+    "puntos": 20.6
+  },
+  {
+    "jugadorId": 12906,
+    "jornada": 1,
+    "puntos": 18.3
+  },
+  {
+    "jugadorId": 17634,
+    "jornada": 1,
+    "puntos": 15.2
+  },
+  {
+    "jugadorId": 19348,
+    "jornada": 1,
+    "puntos": 10.8
+  },
+  {
+    "jugadorId": 14749,
+    "jornada": 1,
+    "puntos": 6.2
+  },
+  {
+    "jugadorId": 16912,
+    "jornada": 1,
+    "puntos": 5.6
+  },
+  {
+    "jugadorId": 14951,
+    "jornada": 1,
+    "puntos": 0.0
+  },
+  {
+    "jugadorId": 19658,
+    "jornada": 1,
+    "puntos": 0.0
+  },
+  {
+    "jugadorId": 20117,
+    "jornada": 1,
+    "puntos": 0.0
+  },
+  {
+    "jugadorId": 13325,
+    "jornada": 1,
+    "puntos": 0.0
+  },
+  {
+    "jugadorId": 12232,
+    "jornada": 1,
+    "puntos": 0.0
+  },
+  {
+    "jugadorId": 14833,
+    "jornada": 1,
+    "puntos": 0.0
+  },
+  {
+    "jugadorId": 16913,
+    "jornada": 1,
+    "puntos": 0.0
+  },
+  {
+    "jugadorId": 20697,
+    "jornada": 1,
+    "puntos": 0.0
+  },
+  {
+    "jugadorId": 11455,
+    "jornada": 1,
+    "puntos": 0.0
+  },
+  {
+    "jugadorId": 17623,
+    "jornada": 1,
+    "puntos": 0.0
+  },
+  {
+    "jugadorId": 12894,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 8625,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 15516,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 14668,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 6038,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 20048,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 20064,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 16890,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 19247,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 15604,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 17004,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 19349,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 20200,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 19248,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 18441,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 20153,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 17762,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 18174,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 18523,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 16281,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 17738,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 18407,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 17779,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 14949,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 19294,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 16842,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 17633,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 9380,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 18361,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 17018,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 17622,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 10295,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 18363,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 17593,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 17725,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 16835,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 20199,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 17627,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 12904,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 19242,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 9360,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 17626,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 19404,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 12140,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 15679,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 16430,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 19329,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 18364,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 19244,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 15522,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 17589,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 12102,
+    "jornada": 2,
+    "puntos": 34.05
+  },
+  {
+    "jugadorId": 12919,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 12159,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 18362,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 5336,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 13017,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 19415,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 12042,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 17612,
+    "jornada": 2,
+    "puntos": 23.3
+  },
+  {
+    "jugadorId": 14716,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 16282,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 17756,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 19290,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 19303,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 19351,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 18449,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 15555,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 19359,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 17413,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 19421,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 20697,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 16896,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 16373,
+    "jornada": 2,
+    "puntos": 37.2
+  },
+  {
+    "jugadorId": 20101,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 19266,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 15523,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 15585,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 16830,
+    "jornada": 2,
+    "puntos": 5.3
+  },
+  {
+    "jugadorId": 19288,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 20052,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 19286,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 16859,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 17674,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 15544,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 18536,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 16250,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 13795,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 17558,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 16236,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 18392,
+    "jornada": 2,
+    "puntos": 12.3
+  },
+  {
+    "jugadorId": 18466,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 19337,
+    "jornada": 2,
+    "puntos": 4.6
+  },
+  {
+    "jugadorId": 13845,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 17681,
+    "jornada": 2,
+    "puntos": 23.2
+  },
+  {
+    "jugadorId": 17675,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 13853,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 19305,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 16933,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 13761,
+    "jornada": 2,
+    "puntos": 44.3
+  },
+  {
+    "jugadorId": 18383,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 17602,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 13775,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 12079,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 15532,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 15533,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 20125,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 15601,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 17603,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 16361,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 19543,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 20065,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 16993,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 16839,
+    "jornada": 2,
+    "puntos": 20.9
+  },
+  {
+    "jugadorId": 18430,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 14767,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 16875,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 18460,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 20149,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 19365,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 18787,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 17595,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 13764,
+    "jornada": 2,
+    "puntos": -0.1
+  },
+  {
+    "jugadorId": 17671,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 19258,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 19335,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 16947,
+    "jornada": 2,
+    "puntos": 6.8
+  },
+  {
+    "jugadorId": 18384,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 19866,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 16823,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 18381,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 20098,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 16248,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 18373,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 20112,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 20141,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 17827,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 16895,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 17585,
+    "jornada": 2,
+    "puntos": 29.5
+  },
+  {
+    "jugadorId": 15573,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 13829,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 12088,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 16314,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 11261,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 20159,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 14734,
+    "jornada": 2,
+    "puntos": 10.5
+  },
+  {
+    "jugadorId": 16256,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 19267,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 18477,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 19321,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 19253,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 16845,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 18357,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 9372,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 14664,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 11183,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 12232,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 18387,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 16834,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 16241,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 16339,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 19361,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 17167,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 17617,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 13111,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 18456,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 18534,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 12965,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 16246,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 17029,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 18515,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 19272,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 19380,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 20249,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 15540,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 16824,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 18587,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 20074,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 18369,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 13008,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 17724,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 20115,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 18498,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 14694,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 15658,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 17635,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 20105,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 20075,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 15751,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 16941,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 17613,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 20181,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 20062,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 16927,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 14677,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 16036,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 20071,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 16853,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 18475,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 15581,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 17045,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 3452,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 13758,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 13770,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 18479,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 12892,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 17137,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 13778,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 20118,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 20063,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 15904,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 16480,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 17625,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 19521,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 20271,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 17667,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 18278,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 17606,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 14702,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 17792,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 16798,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 12106,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 19261,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 18395,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 15603,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 12926,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 16253,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 14706,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 12970,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 20038,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 20058,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 17243,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 13806,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 14661,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 15531,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 18435,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 20095,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 20120,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 13813,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 20037,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 16937,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 17639,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 18484,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 13023,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 19270,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 17274,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 19326,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 20107,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 18372,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 19243,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 17623,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 20137,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 14736,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 19509,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 16882,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 14759,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 17624,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 20225,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 11455,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 13325,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 16913,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 17227,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 18482,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 20189,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 10252,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 20109,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 11329,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 16869,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 19347,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 20044,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 17740,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 14746,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 19346,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 13776,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 14833,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 16326,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 16293,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 12906,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 17634,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 19348,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 14749,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 16912,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 14951,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 19658,
+    "jornada": 2,
+    "puntos": 0
+  },
+  {
+    "jugadorId": 20117,
+    "jornada": 2,
+    "puntos": 0
+  }
+]

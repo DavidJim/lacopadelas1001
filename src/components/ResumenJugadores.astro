@@ -1,0 +1,31 @@
+---
+import "../styles/global.css";
+import jugadoresData from "../../data/jugadores.json"
+
+const totalQBs = jugadoresData.filter(jugador => jugador.posicion === "QB").length;
+const totalWRs = jugadoresData.filter(jugador => jugador.posicion === "WR").length;
+const totalRBs = jugadoresData.filter(jugador => jugador.posicion === "RB").length;
+const totalTEs = jugadoresData.filter(jugador => jugador.posicion === "TE").length;
+
+---
+<div class="stats m-2">
+  <div class="stat place-items-center">
+    <div class="stat-title">QB</div>
+    <div class="stat-value">{totalQBs}</div>
+  </div>
+
+  <div class="stat place-items-center">
+    <div class="stat-title">WR</div>
+    <div class="stat-value">{totalWRs}</div>
+  </div>
+
+  <div class="stat place-items-center">
+    <div class="stat-title">RB</div>
+    <div class="stat-value">{totalRBs}</div>
+  </div>
+
+   <div class="stat place-items-center">
+    <div class="stat-title">TE</div>
+    <div class="stat-value">{totalTEs}</div>
+  </div>
+</div>

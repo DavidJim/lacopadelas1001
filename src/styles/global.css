@@ -1,0 +1,44 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+@plugin "daisyui/theme" {
+  name: "copa-light";
+
+  --color-base-100: #f5f7fa;
+  --color-base-200: #e9edf2;
+  --color-base-300: #d5dce5;
+  --color-base-content: #152331;
+
+  --color-primary: #152331;
+  --color-primary-content: #ffffff;
+
+  --color-secondary: #6b7280;
+  --color-secondary-content: #ffffff;
+  --color-accent: #002767
+}
+
+@plugin "daisyui/theme" {
+  name: "copa-dark";
+  default: true;
+
+  --color-base-100: #152331;
+  --color-base-200: #0d1720;
+  --color-base-300: #f5f7fa;
+  --color-base-content: #f5f7fa;
+
+  --color-primary: #f5f7fa;
+  --color-primary-content: #152331;
+
+  --color-secondary: #94a3b8;
+  --color-secondary-content: #0d1720;
+  --color-accent: #50F527
+
+}
+
+.copa-gradient {
+  background: linear-gradient(to right, #ffffff, #e9edf2);
+}
+
+[data-theme="copa-dark"] .copa-gradient {
+  background: linear-gradient(to right, #000000, #152331);
+}

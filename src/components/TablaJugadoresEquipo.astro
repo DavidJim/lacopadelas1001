@@ -1,0 +1,54 @@
+---
+import { obtenerEquipo } from "../lib/equipos";
+import { obtenerRoster } from "../lib/rosters"
+
+interface Props {
+  equipoId: number;
+}
+const { equipoId } = Astro.props;
+const equipo = obtenerEquipo(Number(equipoId));
+const roster = equipo ? obtenerRoster(equipo.id) : null;
+---
+<table class="table">
+  <thead>
+    <tr>
+        <th>JUGADOR</th>
+        <th>POS</th>
+        <th>ACTUAL</th>
+        <th>TOTAL</th>
+    </tr>
+  </thead>
+  <tbody>
+  {roster?.jugadores.map((jugador, index) => (
+    <tr>
+        <td>
+          <a href={`/jugadores/${jugador?.jugador?.id}`}>
+        <div class="flex items-center gap-3">
+            <div class="avatar">
+            <div class="mask mask-squircle h-8 w-8 md:h-12 md:w-12">
+                <img
+                src={jugador?.jugador?.foto && jugador?.jugador?.foto !== "" ? jugador?.jugador?.foto : "/helmet.png"}
+                  />
+            </div>
+            </div>
+            <div>
+            <div class="font-bold md:text-lg">
+              {jugador?.jugador?.nombre}
+            </div>
+            </div>
+        </div>
+        </a>
+        </td>
+        <th>
+          <div class="text-md md:text-lg tabular-nums">{jugador?.jugador?.posicion}</div>
+        </th>
+        <th>
+          <div class="text-md text-accent md:text-lg tabular-nums">{jugador?.puntosPorJornada[jugador?.puntosPorJornada.length - 1 ].puntos.toFixed(2)}</div>
+        </th>
+        <th>
+          <div class="text-md md:text-lg tabular-nums">{jugador?.puntosTotales.toFixed(2)}</div>
+        </th>
+    </tr>
+  ))}
+  </tbody>
+</table>

@@ -1,0 +1,1718 @@
+[
+  {
+    "nombre": "Trevor Lawrence",
+    "id": 16242,
+    "posicion": "QB",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/16242.png"
+  },
+  {
+    "nombre": "Patrick Mahomes",
+    "id": 12894,
+    "posicion": "QB",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/12894.png"
+  },
+  {
+    "nombre": "Kirk Cousins",
+    "id": 8625,
+    "posicion": "QB",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/8625.png"
+  },
+  {
+    "nombre": "Justin Herbert",
+    "id": 15516,
+    "posicion": "QB",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/15516.png"
+  },
+  {
+    "nombre": "Daniel Jones",
+    "id": 14668,
+    "posicion": "QB",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/14668.png"
+  },
+  {
+    "nombre": "Matthew Stafford",
+    "id": 6038,
+    "posicion": "QB",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/6038.png"
+  },
+  {
+    "nombre": "Fernando Mendoza",
+    "id": 20048,
+    "posicion": "QB",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/20048.png"
+  },
+  {
+    "nombre": "Ty Simpson",
+    "id": 20064,
+    "posicion": "QB",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/20064.png"
+  },
+  {
+    "nombre": "Kenneth Walker",
+    "id": 16890,
+    "posicion": "RB",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/16890.png"
+  },
+  {
+    "nombre": "Ashton Jeanty",
+    "id": 19247,
+    "posicion": "RB",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/19247.png"
+  },
+  {
+    "nombre": "Jonathan Taylor",
+    "id": 15604,
+    "posicion": "RB",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/15604.png"
+  },
+  {
+    "nombre": "Kyren Williams",
+    "id": 17004,
+    "posicion": "RB",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/17004.png"
+  },
+  {
+    "nombre": "Bhayshul Tuten",
+    "id": 19349,
+    "posicion": "RB",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/19349.png"
+  },
+  {
+    "nombre": "Emmett Johnson",
+    "id": 20200,
+    "posicion": "RB",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/20200.png"
+  },
+  {
+    "nombre": "Omarion Hampton",
+    "id": 19248,
+    "posicion": "RB",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/19248.png"
+  },
+  {
+    "nombre": "Blake Corum",
+    "id": 18441,
+    "posicion": "RB",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/18441.png"
+  },
+  {
+    "nombre": "Mike Washington",
+    "id": 20153,
+    "posicion": "RB",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/20153.png"
+  },
+  {
+    "nombre": "Chris Rodriguez",
+    "id": 17762,
+    "posicion": "RB",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/17762.png"
+  },
+  {
+    "nombre": "Keaton Mitchell",
+    "id": 18174,
+    "posicion": "RB",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/18174.png"
+  },
+  {
+    "nombre": "Kimani Vidal",
+    "id": 18523,
+    "posicion": "RB",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/18523.png"
+  },
+  {
+    "nombre": "Nico Collins",
+    "id": 16281,
+    "posicion": "WR",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/16281.png"
+  },
+  {
+    "nombre": "Parker Washington",
+    "id": 17738,
+    "posicion": "WR",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/17738.png"
+  },
+  {
+    "nombre": "Ladd McConkey",
+    "id": 18407,
+    "posicion": "WR",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/18407.png"
+  },
+  {
+    "nombre": "Puka Nacua",
+    "id": 17779,
+    "posicion": "WR",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/17779.png"
+  },
+  {
+    "nombre": "Jakobi Meyers",
+    "id": 14949,
+    "posicion": "WR",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/14949.png"
+  },
+  {
+    "nombre": "Jack Bech",
+    "id": 19294,
+    "posicion": "WR",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/19294.png"
+  },
+  {
+    "nombre": "Alec Pierce",
+    "id": 16842,
+    "posicion": "WR",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/16842.png"
+  },
+  {
+    "nombre": "Rashee Rice",
+    "id": 17633,
+    "posicion": "WR",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/17633.png"
+  },
+  {
+    "nombre": "Keenan Allen",
+    "id": 9380,
+    "posicion": "WR",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/9380.png"
+  },
+  {
+    "nombre": "Brian Thomas",
+    "id": 18361,
+    "posicion": "WR",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/18361.png"
+  },
+  {
+    "nombre": "Jalen Nailor",
+    "id": 17018,
+    "posicion": "WR",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/17018.png"
+  },
+  {
+    "nombre": "Josh Downs",
+    "id": 17622,
+    "posicion": "WR",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/17622.png"
+  },
+  {
+    "nombre": "Davante Adams",
+    "id": 10295,
+    "posicion": "WR",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/10295.png"
+  },
+  {
+    "nombre": "Xavier Worthy",
+    "id": 18363,
+    "posicion": "WR",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/18363.png"
+  },
+  {
+    "nombre": "Quentin Johnston",
+    "id": 17593,
+    "posicion": "WR",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/17593.png"
+  },
+  {
+    "nombre": "Kayshon Boutte",
+    "id": 17725,
+    "posicion": "WR",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/17725.png"
+  },
+  {
+    "nombre": "Tyquan Thornton",
+    "id": 16835,
+    "posicion": "WR",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/16835.png"
+  },
+  {
+    "nombre": "Cyrus Allen",
+    "id": 20199,
+    "posicion": "WR",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/20199.png"
+  },
+  {
+    "nombre": "Tank Dell",
+    "id": 17627,
+    "posicion": "WR",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/17627.png"
+  },
+  {
+    "nombre": "David Njoku",
+    "id": 12904,
+    "posicion": "TE",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/12904.png"
+  },
+  {
+    "nombre": "Tyler Warren",
+    "id": 19242,
+    "posicion": "TE",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/19242.png"
+  },
+  {
+    "nombre": "Travis Kelce",
+    "id": 9360,
+    "posicion": "TE",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/9360.png"
+  },
+  {
+    "nombre": "Brenton Strange",
+    "id": 17626,
+    "posicion": "TE",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/17626.png"
+  },
+  {
+    "nombre": "Oronde Gadsden",
+    "id": 19404,
+    "posicion": "TE",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/19404.png"
+  },
+  {
+    "nombre": "Tyler Higbee",
+    "id": 12140,
+    "posicion": "TE",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/12140.png"
+  },
+  {
+    "nombre": "Colby Parkinson",
+    "id": 15679,
+    "posicion": "TE",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/15679.png"
+  },
+  {
+    "nombre": "Noah Gray",
+    "id": 16430,
+    "posicion": "TE",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/16430.png"
+  },
+  {
+    "nombre": "Terrance Ferguson",
+    "id": 19329,
+    "posicion": "TE",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/19329.png"
+  },
+  {
+    "nombre": "Brock Bowers",
+    "id": 18364,
+    "posicion": "TE",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/18364.png"
+  },
+  {
+    "nombre": "Travis Hunter",
+    "id": 19244,
+    "posicion": "WR",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/19244.png"
+  },
+  {
+    "nombre": "Jordan Love",
+    "id": 15522,
+    "posicion": "QB",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/15522.png"
+  },
+  {
+    "nombre": "C.J. Stroud",
+    "id": 17589,
+    "posicion": "QB",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/17589.png"
+  },
+  {
+    "nombre": "Jared Goff",
+    "id": 12102,
+    "posicion": "QB",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/12102.png"
+  },
+  {
+    "nombre": "Deshaun Watson",
+    "id": 12919,
+    "posicion": "QB",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/12919.png"
+  },
+  {
+    "nombre": "Dak Prescott",
+    "id": 12159,
+    "posicion": "QB",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/12159.png"
+  },
+  {
+    "nombre": "Bo Nix",
+    "id": 18362,
+    "posicion": "QB",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/18362.png"
+  },
+  {
+    "nombre": "Joe Flacco",
+    "id": 5336,
+    "posicion": "QB",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/5336.png"
+  },
+  {
+    "nombre": "Joshua Dobbs",
+    "id": 13017,
+    "posicion": "QB",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/13017.png"
+  },
+  {
+    "nombre": "Shedeur Sanders",
+    "id": 19415,
+    "posicion": "QB",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/19415.png"
+  },
+  {
+    "nombre": "Derrick Henry",
+    "id": 12042,
+    "posicion": "RB",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/12042.png"
+  },
+  {
+    "nombre": "Jahmyr Gibbs",
+    "id": 17612,
+    "posicion": "RB",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/17612.png"
+  },
+  {
+    "nombre": "David Montgomery",
+    "id": 14716,
+    "posicion": "RB",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/14716.png"
+  },
+  {
+    "nombre": "Javonte Williams",
+    "id": 16282,
+    "posicion": "RB",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/16282.png"
+  },
+  {
+    "nombre": "Chase Brown",
+    "id": 17756,
+    "posicion": "RB",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/17756.png"
+  },
+  {
+    "nombre": "RJ Harvey",
+    "id": 19290,
+    "posicion": "RB",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/19290.png"
+  },
+  {
+    "nombre": "Quinshon Judkins",
+    "id": 19303,
+    "posicion": "RB",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/19303.png"
+  },
+  {
+    "nombre": "Woody Marks",
+    "id": 19351,
+    "posicion": "RB",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/19351.png"
+  },
+  {
+    "nombre": "MarShawn Lloyd",
+    "id": 18449,
+    "posicion": "RB",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/18449.png"
+  },
+  {
+    "nombre": "J.K. Dobbins",
+    "id": 15555,
+    "posicion": "RB",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/15555.png"
+  },
+  {
+    "nombre": "Dylan Sampson",
+    "id": 19359,
+    "posicion": "RB",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/19359.png"
+  },
+  {
+    "nombre": "Malik Davis",
+    "id": 17413,
+    "posicion": "RB",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/17413.png"
+  },
+  {
+    "nombre": "Jaydon Blue",
+    "id": 19421,
+    "posicion": "RB",
+    "foto": ""
+  },
+  {
+    "nombre": "Christian Watson",
+    "id": 16896,
+    "posicion": "WR",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/16896.png"
+  },
+  {
+    "nombre": "Amon-Ra St. Brown",
+    "id": 16373,
+    "posicion": "WR",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/16373.png"
+  },
+  {
+    "nombre": "Denzel Boston",
+    "id": 20101,
+    "posicion": "WR",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/20101.png"
+  },
+  {
+    "nombre": "Matthew Golden",
+    "id": 19266,
+    "posicion": "WR",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/19266.png"
+  },
+  {
+    "nombre": "CeeDee Lamb",
+    "id": 15523,
+    "posicion": "WR",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/15523.png"
+  },
+  {
+    "nombre": "Tee Higgins",
+    "id": 15585,
+    "posicion": "WR",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/15585.png"
+  },
+  {
+    "nombre": "Jameson Williams",
+    "id": 16830,
+    "posicion": "WR",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/16830.png"
+  },
+  {
+    "nombre": "Pat Bryant",
+    "id": 19288,
+    "posicion": "WR",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/19288.png"
+  },
+  {
+    "nombre": "KC Concepcion",
+    "id": 20052,
+    "posicion": "WR",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/20052.png"
+  },
+  {
+    "nombre": "Jaylin Noel",
+    "id": 19286,
+    "posicion": "WR",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/19286.png"
+  },
+  {
+    "nombre": "George Pickens",
+    "id": 16859,
+    "posicion": "WR",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/16859.png"
+  },
+  {
+    "nombre": "Jayden Reed",
+    "id": 17674,
+    "posicion": "WR",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/17674.png"
+  },
+  {
+    "nombre": "Jerry Jeudy",
+    "id": 15544,
+    "posicion": "WR",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/15544.png"
+  },
+  {
+    "nombre": "Ryan Flournoy",
+    "id": 18536,
+    "posicion": "WR",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/18536.png"
+  },
+  {
+    "nombre": "'Ja''Marr Chase'",
+    "id": 16250,
+    "posicion": "WR",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/16250.png"
+  },
+  {
+    "nombre": "Courtland Sutton",
+    "id": 13795,
+    "posicion": "WR",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/13795.png"
+  },
+  {
+    "nombre": "KaVontae Turpin",
+    "id": 17558,
+    "posicion": "WR",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/17558.png"
+  },
+  {
+    "nombre": "Jaylen Waddle",
+    "id": 16236,
+    "posicion": "WR",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/16236.png"
+  },
+  {
+    "nombre": "Keon Coleman",
+    "id": 18392,
+    "posicion": "WR",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/18392.png"
+  },
+  {
+    "nombre": "Troy Franklin",
+    "id": 18466,
+    "posicion": "WR",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/18466.png"
+  },
+  {
+    "nombre": "Isaac TeSlaa",
+    "id": 19337,
+    "posicion": "WR",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/19337.png"
+  },
+  {
+    "nombre": "Mike Gesicki",
+    "id": 13845,
+    "posicion": "TE",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/13845.png"
+  },
+  {
+    "nombre": "Sam LaPorta",
+    "id": 17681,
+    "posicion": "TE",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/17681.png"
+  },
+  {
+    "nombre": "Tucker Kraft",
+    "id": 17675,
+    "posicion": "TE",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/17675.png"
+  },
+  {
+    "nombre": "Dalton Schultz",
+    "id": 13853,
+    "posicion": "TE",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/13853.png"
+  },
+  {
+    "nombre": "Harold Fannin",
+    "id": 19305,
+    "posicion": "TE",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/19305.png"
+  },
+  {
+    "nombre": "Jake Ferguson",
+    "id": 16933,
+    "posicion": "TE",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/16933.png"
+  },
+  {
+    "nombre": "Josh Allen",
+    "id": 13761,
+    "posicion": "QB",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/13761.png"
+  },
+  {
+    "nombre": "Caleb Williams",
+    "id": 18383,
+    "posicion": "QB",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/18383.png"
+  },
+  {
+    "nombre": "Bryce Young",
+    "id": 17602,
+    "posicion": "QB",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/17602.png"
+  },
+  {
+    "nombre": "Lamar Jackson",
+    "id": 13775,
+    "posicion": "QB",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/13775.png"
+  },
+  {
+    "nombre": "Jacoby Brissett",
+    "id": 12079,
+    "posicion": "QB",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/12079.png"
+  },
+  {
+    "nombre": "Joe Burrow",
+    "id": 15532,
+    "posicion": "QB",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/15532.png"
+  },
+  {
+    "nombre": "Tua Tagovailoa",
+    "id": 15533,
+    "posicion": "QB",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/15533.png"
+  },
+  {
+    "nombre": "Carson Beck",
+    "id": 20125,
+    "posicion": "QB",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/20125.png"
+  },
+  {
+    "nombre": "'D''Andre Swift'",
+    "id": 15601,
+    "posicion": "RB",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/15601.png"
+  },
+  {
+    "nombre": "Bijan Robinson",
+    "id": 17603,
+    "posicion": "RB",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/17603.png"
+  },
+  {
+    "nombre": "Chuba Hubbard",
+    "id": 16361,
+    "posicion": "RB",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/16361.png"
+  },
+  {
+    "nombre": "Kyle Monangai",
+    "id": 19543,
+    "posicion": "RB",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/19543.png"
+  },
+  {
+    "nombre": "Jeremiyah Love",
+    "id": 20065,
+    "posicion": "RB",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/20065.png"
+  },
+  {
+    "nombre": "Tyler Allgeier",
+    "id": 16993,
+    "posicion": "RB",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/16993.png"
+  },
+  {
+    "nombre": "James Cook",
+    "id": 16839,
+    "posicion": "RB",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/16839.png"
+  },
+  {
+    "nombre": "Jonathon Brooks",
+    "id": 18430,
+    "posicion": "RB",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/18430.png"
+  },
+  {
+    "nombre": "Justice Hill",
+    "id": 14767,
+    "posicion": "RB",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/14767.png"
+  },
+  {
+    "nombre": "Brian Robinson",
+    "id": 16875,
+    "posicion": "RB",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/16875.png"
+  },
+  {
+    "nombre": "Ray Davis",
+    "id": 18460,
+    "posicion": "RB",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/18460.png"
+  },
+  {
+    "nombre": "Jonah Coleman",
+    "id": 20149,
+    "posicion": "RB",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/20149.png"
+  },
+  {
+    "nombre": "Trevor Etienne",
+    "id": 19365,
+    "posicion": "RB",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/19365.png"
+  },
+  {
+    "nombre": "Jalen Coker",
+    "id": 18787,
+    "posicion": "WR",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/18787.png"
+  },
+  {
+    "nombre": "Zay Flowers",
+    "id": 17595,
+    "posicion": "WR",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/17595.png"
+  },
+  {
+    "nombre": "DJ Moore",
+    "id": 13764,
+    "posicion": "WR",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/13764.png"
+  },
+  {
+    "nombre": "Michael Wilson",
+    "id": 17671,
+    "posicion": "WR",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/17671.png"
+  },
+  {
+    "nombre": "Tetairoa McMillan",
+    "id": 19258,
+    "posicion": "WR",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/19258.png"
+  },
+  {
+    "nombre": "Luther Burden",
+    "id": 19335,
+    "posicion": "WR",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/19335.png"
+  },
+  {
+    "nombre": "Khalil Shakir",
+    "id": 16947,
+    "posicion": "WR",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/16947.png"
+  },
+  {
+    "nombre": "Rome Odunze",
+    "id": 18384,
+    "posicion": "WR",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/18384.png"
+  },
+  {
+    "nombre": "Jahdae Walker",
+    "id": 19866,
+    "posicion": "WR",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/19866.png"
+  },
+  {
+    "nombre": "Drake London",
+    "id": 16823,
+    "posicion": "WR",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/16823.png"
+  },
+  {
+    "nombre": "Marvin Harrison",
+    "id": 18381,
+    "posicion": "WR",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/18381.png"
+  },
+  {
+    "nombre": "'Ja''Kobi Lane'",
+    "id": 20098,
+    "posicion": "WR",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/20098.png"
+  },
+  {
+    "nombre": "Rashod Bateman",
+    "id": 16248,
+    "posicion": "WR",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/16248.png"
+  },
+  {
+    "nombre": "Xavier Legette",
+    "id": 18373,
+    "posicion": "WR",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/18373.png"
+  },
+  {
+    "nombre": "Zachariah Branch",
+    "id": 20112,
+    "posicion": "WR",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/20112.png"
+  },
+  {
+    "nombre": "Skyler Bell",
+    "id": 20141,
+    "posicion": "WR",
+    "foto": ""
+  },
+  {
+    "nombre": "Jalen Brooks",
+    "id": 17827,
+    "posicion": "WR",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/17827.png"
+  },
+  {
+    "nombre": "Trey McBride",
+    "id": 16895,
+    "posicion": "TE",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/16895.png"
+  },
+  {
+    "nombre": "Dalton Kincaid",
+    "id": 17585,
+    "posicion": "TE",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/17585.png"
+  },
+  {
+    "nombre": "Cole Kmet",
+    "id": 15573,
+    "posicion": "TE",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/15573.png"
+  },
+  {
+    "nombre": "Mark Andrews",
+    "id": 13829,
+    "posicion": "TE",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/13829.png"
+  },
+  {
+    "nombre": "Hunter Henry",
+    "id": 12088,
+    "posicion": "TE",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/12088.png"
+  },
+  {
+    "nombre": "Tommy Tremble",
+    "id": 16314,
+    "posicion": "TE",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/16314.png"
+  },
+  {
+    "nombre": "Darren Waller",
+    "id": 11261,
+    "posicion": "TE",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/11261.png"
+  },
+  {
+    "nombre": "Matt Hibner",
+    "id": 20159,
+    "posicion": "TE",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/20159.png"
+  },
+  {
+    "nombre": "Dawson Knox",
+    "id": 14734,
+    "posicion": "TE",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/14734.png"
+  },
+  {
+    "nombre": "Kyle Pitts",
+    "id": 16256,
+    "posicion": "TE",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/16256.png"
+  },
+  {
+    "nombre": "Colston Loveland",
+    "id": 19267,
+    "posicion": "TE",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/19267.png"
+  },
+  {
+    "nombre": "'Ja''Tavion Sanders'",
+    "id": 18477,
+    "posicion": "TE",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/18477.png"
+  },
+  {
+    "nombre": "Tyler Shough",
+    "id": 19321,
+    "posicion": "QB",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/19321.png"
+  },
+  {
+    "nombre": "Jaxson Dart",
+    "id": 19253,
+    "posicion": "QB",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/19253.png"
+  },
+  {
+    "nombre": "Malik Willis",
+    "id": 16845,
+    "posicion": "QB",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/16845.png"
+  },
+  {
+    "nombre": "Drake Maye",
+    "id": 18357,
+    "posicion": "QB",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/18357.png"
+  },
+  {
+    "nombre": "Geno Smith",
+    "id": 9372,
+    "posicion": "QB",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/9372.png"
+  },
+  {
+    "nombre": "Kyler Murray",
+    "id": 14664,
+    "posicion": "QB",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/14664.png"
+  },
+  {
+    "nombre": "Jameis Winston",
+    "id": 11183,
+    "posicion": "QB",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/11183.png"
+  },
+  {
+    "nombre": "J.J. McCarthy",
+    "id": 18387,
+    "posicion": "QB",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/18387.png"
+  },
+  {
+    "nombre": "Breece Hall",
+    "id": 16834,
+    "posicion": "RB",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/16834.png"
+  },
+  {
+    "nombre": "Travis Etienne",
+    "id": 16241,
+    "posicion": "RB",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/16241.png"
+  },
+  {
+    "nombre": "Rhamondre Stevenson",
+    "id": 16339,
+    "posicion": "RB",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/16339.png"
+  },
+  {
+    "nombre": "Cam Skattebo",
+    "id": 19361,
+    "posicion": "RB",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/19361.png"
+  },
+  {
+    "nombre": "Jordan Mason",
+    "id": 17167,
+    "posicion": "RB",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/17167.png"
+  },
+  {
+    "nombre": "'De''Von Achane'",
+    "id": 17617,
+    "posicion": "RB",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/17617.png"
+  },
+  {
+    "nombre": "Aaron Jones",
+    "id": 13111,
+    "posicion": "RB",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/13111.png"
+  },
+  {
+    "nombre": "Braelon Allen",
+    "id": 18456,
+    "posicion": "RB",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/18456.png"
+  },
+  {
+    "nombre": "Tyrone Tracy",
+    "id": 18534,
+    "posicion": "RB",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/18534.png"
+  },
+  {
+    "nombre": "Alvin Kamara",
+    "id": 12965,
+    "posicion": "RB",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/12965.png"
+  },
+  {
+    "nombre": "Najee Harris",
+    "id": 16246,
+    "posicion": "RB",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/16246.png"
+  },
+  {
+    "nombre": "Isiah Pacheco",
+    "id": 17029,
+    "posicion": "RB",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/17029.png"
+  },
+  {
+    "nombre": "Audric Estime",
+    "id": 18515,
+    "posicion": "RB",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/18515.png"
+  },
+  {
+    "nombre": "TreVeyon Henderson",
+    "id": 19272,
+    "posicion": "RB",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/19272.png"
+  },
+  {
+    "nombre": "Ollie Gordon",
+    "id": 19380,
+    "posicion": "RB",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/19380.png"
+  },
+  {
+    "nombre": "Demond Claiborne",
+    "id": 20249,
+    "posicion": "RB",
+    "foto": ""
+  },
+  {
+    "nombre": "Justin Jefferson",
+    "id": 15540,
+    "posicion": "WR",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/15540.png"
+  },
+  {
+    "nombre": "Chris Olave",
+    "id": 16824,
+    "posicion": "WR",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/16824.png"
+  },
+  {
+    "nombre": "Devaughn Vele",
+    "id": 18587,
+    "posicion": "WR",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/18587.png"
+  },
+  {
+    "nombre": "Caleb Douglas",
+    "id": 20074,
+    "posicion": "WR",
+    "foto": ""
+  },
+  {
+    "nombre": "Malik Nabers",
+    "id": 18369,
+    "posicion": "WR",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/18369.png"
+  },
+  {
+    "nombre": "Mack Hollins",
+    "id": 13008,
+    "posicion": "WR",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/13008.png"
+  },
+  {
+    "nombre": "DeMario Douglas",
+    "id": 17724,
+    "posicion": "WR",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/17724.png"
+  },
+  {
+    "nombre": "Ted Hurst",
+    "id": 20115,
+    "posicion": "WR",
+    "foto": ""
+  },
+  {
+    "nombre": "Malik Washington",
+    "id": 18498,
+    "posicion": "WR",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/18498.png"
+  },
+  {
+    "nombre": "A.J. Brown",
+    "id": 14694,
+    "posicion": "WR",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/14694.png"
+  },
+  {
+    "nombre": "Darnell Mooney",
+    "id": 15658,
+    "posicion": "WR",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/15658.png"
+  },
+  {
+    "nombre": "Tre Tucker",
+    "id": 17635,
+    "posicion": "WR",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/17635.png"
+  },
+  {
+    "nombre": "Malachi Fields",
+    "id": 20105,
+    "posicion": "WR",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/20105.png"
+  },
+  {
+    "nombre": "Chris Bell",
+    "id": 20075,
+    "posicion": "WR",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/20075.png"
+  },
+  {
+    "nombre": "Jauan Jennings",
+    "id": 15751,
+    "posicion": "WR",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/15751.png"
+  },
+  {
+    "nombre": "Romeo Doubs",
+    "id": 16941,
+    "posicion": "WR",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/16941.png"
+  },
+  {
+    "nombre": "Jordan Addison",
+    "id": 17613,
+    "posicion": "WR",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/17613.png"
+  },
+  {
+    "nombre": "Kevin Coleman",
+    "id": 20181,
+    "posicion": "WR",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/20181.png"
+  },
+  {
+    "nombre": "Jordyn Tyson",
+    "id": 20062,
+    "posicion": "WR",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/20062.png"
+  },
+  {
+    "nombre": "Isaiah Likely",
+    "id": 16927,
+    "posicion": "TE",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/16927.png"
+  },
+  {
+    "nombre": "T.J. Hockenson",
+    "id": 14677,
+    "posicion": "TE",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/14677.png"
+  },
+  {
+    "nombre": "Juwan Johnson",
+    "id": 16036,
+    "posicion": "TE",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/16036.png"
+  },
+  {
+    "nombre": "Eli Raridon",
+    "id": 20071,
+    "posicion": "TE",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/20071.png"
+  },
+  {
+    "nombre": "Greg Dulcich",
+    "id": 16853,
+    "posicion": "TE",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/16853.png"
+  },
+  {
+    "nombre": "Theo Johnson",
+    "id": 18475,
+    "posicion": "TE",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/18475.png"
+  },
+  {
+    "nombre": "Jalen Hurts",
+    "id": 15581,
+    "posicion": "QB",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/15581.png"
+  },
+  {
+    "nombre": "Brock Purdy",
+    "id": 17045,
+    "posicion": "QB",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/17045.png"
+  },
+  {
+    "nombre": "Aaron Rodgers",
+    "id": 3452,
+    "posicion": "QB",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/3452.png"
+  },
+  {
+    "nombre": "Baker Mayfield",
+    "id": 13758,
+    "posicion": "QB",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/13758.png"
+  },
+  {
+    "nombre": "Sam Darnold",
+    "id": 13770,
+    "posicion": "QB",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/13770.png"
+  },
+  {
+    "nombre": "Bucky Irving",
+    "id": 18479,
+    "posicion": "RB",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/18479.png"
+  },
+  {
+    "nombre": "Christian McCaffrey",
+    "id": 12892,
+    "posicion": "RB",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/12892.png"
+  },
+  {
+    "nombre": "Jaylen Warren",
+    "id": 17137,
+    "posicion": "RB",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/17137.png"
+  },
+  {
+    "nombre": "Saquon Barkley",
+    "id": 13778,
+    "posicion": "RB",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/13778.png"
+  },
+  {
+    "nombre": "Kaelon Black",
+    "id": 20118,
+    "posicion": "RB",
+    "foto": ""
+  },
+  {
+    "nombre": "Jadarian Price",
+    "id": 20063,
+    "posicion": "RB",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/20063.png"
+  },
+  {
+    "nombre": "Rico Dowdle",
+    "id": 15904,
+    "posicion": "RB",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/15904.png"
+  },
+  {
+    "nombre": "Kenny Gainwell",
+    "id": 16480,
+    "posicion": "RB",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/16480.png"
+  },
+  {
+    "nombre": "Tank Bigsby",
+    "id": 17625,
+    "posicion": "RB",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/17625.png"
+  },
+  {
+    "nombre": "Josh Williams",
+    "id": 19521,
+    "posicion": "RB",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/19521.png"
+  },
+  {
+    "nombre": "Eli Heidenreich",
+    "id": 20271,
+    "posicion": "RB",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/20271.png"
+  },
+  {
+    "nombre": "Zach Charbonnet",
+    "id": 17667,
+    "posicion": "RB",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/17667.png"
+  },
+  {
+    "nombre": "Sean Tucker",
+    "id": 18278,
+    "posicion": "RB",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/18278.png"
+  },
+  {
+    "nombre": "Jaxon Smith-Njigba",
+    "id": 17606,
+    "posicion": "WR",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/17606.png"
+  },
+  {
+    "nombre": "Deebo Samuel",
+    "id": 14702,
+    "posicion": "WR",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/14702.png"
+  },
+  {
+    "nombre": "Dontayvion Wicks",
+    "id": 17792,
+    "posicion": "WR",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/17792.png"
+  },
+  {
+    "nombre": "Garrett Wilson",
+    "id": 16798,
+    "posicion": "WR",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/16798.png"
+  },
+  {
+    "nombre": "Demarcus Robinson",
+    "id": 12106,
+    "posicion": "WR",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/12106.png"
+  },
+  {
+    "nombre": "Emeka Egbuka",
+    "id": 19261,
+    "posicion": "WR",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/19261.png"
+  },
+  {
+    "nombre": "Adonai Mitchell",
+    "id": 18395,
+    "posicion": "WR",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/18395.png"
+  },
+  {
+    "nombre": "Michael Pittman",
+    "id": 15603,
+    "posicion": "WR",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/15603.png"
+  },
+  {
+    "nombre": "Chris Godwin",
+    "id": 12926,
+    "posicion": "WR",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/12926.png"
+  },
+  {
+    "nombre": "DeVonta Smith",
+    "id": 16253,
+    "posicion": "WR",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/16253.png"
+  },
+  {
+    "nombre": "DK Metcalf",
+    "id": 14706,
+    "posicion": "WR",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/14706.png"
+  },
+  {
+    "nombre": "Cooper Kupp",
+    "id": 12970,
+    "posicion": "WR",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/12970.png"
+  },
+  {
+    "nombre": "Omar Cooper",
+    "id": 20038,
+    "posicion": "WR",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/20038.png"
+  },
+  {
+    "nombre": "Makai Lemon",
+    "id": 20058,
+    "posicion": "WR",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/20058.png"
+  },
+  {
+    "nombre": "Rashid Shaheed",
+    "id": 17243,
+    "posicion": "WR",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/17243.png"
+  },
+  {
+    "nombre": "Christian Kirk",
+    "id": 13806,
+    "posicion": "WR",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/13806.png"
+  },
+  {
+    "nombre": "Hollywood Brown",
+    "id": 14661,
+    "posicion": "WR",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/14661.png"
+  },
+  {
+    "nombre": "Brandon Aiyuk",
+    "id": 15531,
+    "posicion": "WR",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/15531.png"
+  },
+  {
+    "nombre": "Jalen McMillan",
+    "id": 18435,
+    "posicion": "WR",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/18435.png"
+  },
+  {
+    "nombre": "Germie Bernard",
+    "id": 20095,
+    "posicion": "WR",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/20095.png"
+  },
+  {
+    "nombre": "'De''Zhaun Stribling'",
+    "id": 20120,
+    "posicion": "WR",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/20120.png"
+  },
+  {
+    "nombre": "Dallas Goedert",
+    "id": 13813,
+    "posicion": "TE",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/13813.png"
+  },
+  {
+    "nombre": "Kenyon Sadiq",
+    "id": 20037,
+    "posicion": "TE",
+    "foto": ""
+  },
+  {
+    "nombre": "Cade Otton",
+    "id": 16937,
+    "posicion": "TE",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/16937.png"
+  },
+  {
+    "nombre": "Darnell Washington",
+    "id": 17639,
+    "posicion": "TE",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/17639.png"
+  },
+  {
+    "nombre": "AJ Barner",
+    "id": 18484,
+    "posicion": "TE",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/18484.png"
+  },
+  {
+    "nombre": "George Kittle",
+    "id": 13023,
+    "posicion": "TE",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/13023.png"
+  },
+  {
+    "nombre": "Mason Taylor",
+    "id": 19270,
+    "posicion": "TE",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/19270.png"
+  },
+  {
+    "nombre": "Jake Tonges",
+    "id": 17274,
+    "posicion": "TE",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/17274.png"
+  },
+  {
+    "nombre": "Elijah Arroyo",
+    "id": 19326,
+    "posicion": "TE",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/19326.png"
+  },
+  {
+    "nombre": "Eli Stowers",
+    "id": 20107,
+    "posicion": "TE",
+    "foto": ""
+  },
+  {
+    "nombre": "Jayden Daniels",
+    "id": 18372,
+    "posicion": "QB",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/18372.png"
+  },
+  {
+    "nombre": "Cam Ward",
+    "id": 19243,
+    "posicion": "QB",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/19243.png"
+  },
+  {
+    "nombre": "Cade Klubnik",
+    "id": 20137,
+    "posicion": "QB",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/20137.png"
+  },
+  {
+    "nombre": "Devin Singletary",
+    "id": 14736,
+    "posicion": "RB",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/14736.png"
+  },
+  {
+    "nombre": "Jacory Croskey-Merritt",
+    "id": 19509,
+    "posicion": "RB",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/19509.png"
+  },
+  {
+    "nombre": "Rachaad White",
+    "id": 16882,
+    "posicion": "RB",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/16882.png"
+  },
+  {
+    "nombre": "Tony Pollard",
+    "id": 14759,
+    "posicion": "RB",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/14759.png"
+  },
+  {
+    "nombre": "Tyjae Spears",
+    "id": 17624,
+    "posicion": "RB",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/17624.png"
+  },
+  {
+    "nombre": "Kaytron Allen",
+    "id": 20225,
+    "posicion": "RB",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/20225.png"
+  },
+  {
+    "nombre": "Julius Chestnut",
+    "id": 17227,
+    "posicion": "RB",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/17227.png"
+  },
+  {
+    "nombre": "Isaac Guerendo",
+    "id": 18482,
+    "posicion": "RB",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/18482.png"
+  },
+  {
+    "nombre": "Nicholas Singleton",
+    "id": 20189,
+    "posicion": "RB",
+    "foto": ""
+  },
+  {
+    "nombre": "Mike Evans",
+    "id": 10252,
+    "posicion": "WR",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/10252.png"
+  },
+  {
+    "nombre": "Antonio Williams",
+    "id": 20109,
+    "posicion": "WR",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/20109.png"
+  },
+  {
+    "nombre": "Stefon Diggs",
+    "id": 11329,
+    "posicion": "WR",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/11329.png"
+  },
+  {
+    "nombre": "'Wan''Dale Robinson'",
+    "id": 16869,
+    "posicion": "WR",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/16869.png"
+  },
+  {
+    "nombre": "Elic Ayomanor",
+    "id": 19347,
+    "posicion": "WR",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/19347.png"
+  },
+  {
+    "nombre": "Carnell Tate",
+    "id": 20044,
+    "posicion": "WR",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/20044.png"
+  },
+  {
+    "nombre": "Xavier Hutchinson",
+    "id": 17740,
+    "posicion": "WR",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/17740.png"
+  },
+  {
+    "nombre": "Terry McLaurin",
+    "id": 14746,
+    "posicion": "WR",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/14746.png"
+  },
+  {
+    "nombre": "Chimere Dike",
+    "id": 19346,
+    "posicion": "WR",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/19346.png"
+  },
+  {
+    "nombre": "Calvin Ridley",
+    "id": 13776,
+    "posicion": "WR",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/13776.png"
+  },
+  {
+    "nombre": "Tutu Atwell",
+    "id": 16326,
+    "posicion": "WR",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/16326.png"
+  },
+  {
+    "nombre": "Pat Freiermuth",
+    "id": 16293,
+    "posicion": "TE",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/16293.png"
+  },
+  {
+    "nombre": "Evan Engram",
+    "id": 12906,
+    "posicion": "TE",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/12906.png"
+  },
+  {
+    "nombre": "Michael Mayer",
+    "id": 17634,
+    "posicion": "TE",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/17634.png"
+  },
+  {
+    "nombre": "Gunnar Helm",
+    "id": 19348,
+    "posicion": "TE",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/19348.png"
+  },
+  {
+    "nombre": "Josh Oliver",
+    "id": 14749,
+    "posicion": "TE",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/14749.png"
+  },
+  {
+    "nombre": "Chig Okonkwo",
+    "id": 16912,
+    "posicion": "TE",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/16912.png"
+  },
+  {
+    "nombre": "Andrew Beck",
+    "id": 14951,
+    "posicion": "TE",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/14951.png"
+  },
+  {
+    "nombre": "Patrick Herbert",
+    "id": 19658,
+    "posicion": "TE",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/19658.png"
+  },
+  {
+    "nombre": "Oscar Delp",
+    "id": 20117,
+    "posicion": "TE",
+    "foto": "https://d26bvpybnxg29h.cloudfront.net/nfl/20117.png"
+  },
+  {
+    "nombre": "Austin Ekeler",
+    "id": 13325,
+    "posicion": "RB",
+    "foto": ""
+  },
+  {
+    "nombre": "Brandon Allen",
+    "id": 12232,
+    "posicion": "QB",
+    "foto": ""
+  },
+  {
+    "nombre": "Darius Slayton",
+    "id": 14833,
+    "posicion": "WR",
+    "foto": ""
+  },
+  {
+    "nombre": "Hassan Haskins",
+    "id": 16913,
+    "posicion": "RB",
+    "foto": ""
+  },
+  {
+    "nombre": "Jamal Haynes",
+    "id": 20697,
+    "posicion": "RB",
+    "foto": ""
+  },
+  {
+    "nombre": "Raheem Mostert",
+    "id": 11455,
+    "posicion": "RB",
+    "foto": ""
+  },
+  {
+    "nombre": "Will Levis",
+    "id": 17623,
+    "posicion": "QB",
+    "foto": ""
+  }
+]

@@ -1,0 +1,127 @@
+---
+interface Props {
+  estadisticas: any;
+}
+
+const {
+  estadisticas
+} = Astro.props;
+---
+
+<section class="mx-auto mt-8 w-full max-w-6xl px-4">
+  <div class="card bg-transparent">
+    <div class="card-body p-1">
+        <details class="collapse collapse-arrow bg-transparent border border-primary" name="my-accordion-det-1">
+            <summary class="collapse-title">
+                <!-- Cabecera -->
+                <div class="flex flex-col gap-2 sm:flex-row sm:items-center sm:justify-between">
+                    <div>
+                        <h2 class="text-xl font-bold">
+                            Jugadores más presentes
+                        </h2>
+
+                        <p class="text-sm text-base-content/60">
+                            Los datos más destacados de los jugadores NFL
+                        </p>
+                    </div>
+                </div>
+            </summary>
+            <div class="collapse-content">
+                <!-- Estadísticas -->
+                <div class="grid grid-cols-1 gap-3 sm:grid-cols-2 lg:grid-cols-4">
+                    <div class="rounded-box bg-transparent border border-accent p-4">
+                    <p class="text-2xl font-bold mb-2">
+                        QB
+                    </p>
+                    <div class="mask mask-squircle">
+                        <img
+                            src={estadisticas["QB"][0].foto}
+                            alt="QB estrella"
+                            class="h-auto w-auto max-h-24 object-contain md:max-h-64"
+                        />
+                    </div>
+
+                    <p class="mt-1 text-xl font-bold">
+                        {estadisticas["QB"][0].nombre}
+                    </p>
+
+                    <p class="truncate text-sm font-medium">
+                        {estadisticas["QB"][0].equipos} equipos
+                    </p>
+                    </div>
+                    <div class="rounded-box bg-transparent border border-accent p-4">
+                    <p class="text-2xl font-bold mb-2">
+                        RB
+                    </p>
+                    <div class="mask mask-squircle">
+                        <img
+                            src={estadisticas["RB"][0].foto}
+                            alt="RB estrella"
+                            class="h-auto w-auto max-h-24 object-contain md:max-h-64"
+                        />
+                    </div>
+
+                    <p class="mt-1 text-xl font-bold">
+                        {estadisticas["RB"][0].nombre}
+                    </p>
+
+                    <p class="truncate text-sm font-medium">
+                        {estadisticas["RB"][0].equipos} equipos
+                    </p>
+                    </div>
+                    <div class="rounded-box bg-transparent border border-accent p-4">
+                    <p class="text-2xl font-bold mb-2">
+                        WR
+                    </p>
+                    <div class="mask mask-squircle">
+                        <img
+                            src={estadisticas["WR"][0].foto}
+                            alt="WR estrella"
+                            class="h-auto w-auto max-h-24 object-contain md:max-h-64"
+                        />
+                    </div>
+
+                    <p class="mt-1 text-xl font-bold">
+                        {estadisticas["WR"][0].nombre}
+                    </p>
+
+                    <p class="truncate text-sm font-medium">
+                        {estadisticas["WR"][0].equipos} equipos
+                    </p>
+                    </div>
+                    <div class="rounded-box bg-transparent border border-accent p-4">
+                    <p class="text-2xl font-bold mb-2">
+                        TE
+                    </p>
+                    <div class="mask mask-squircle">
+                        <img
+                            src={estadisticas["TE"][0].foto}
+                            alt="TE estrella"
+                            class="h-auto w-auto max-h-24 object-contain md:max-h-64"
+                        />
+                    </div>
+
+                    <p class="mt-1 text-xl font-bold">
+                        {estadisticas["TE"][0].nombre}
+                    </p>
+
+                    <p class="truncate text-sm font-medium">
+                        {estadisticas["TE"][0].equipos} equipos
+                    </p>
+                    </div>
+
+                </div>
+            </div>
+        </details>
+
+
+        <!-- <a
+          href="/estadisticas"
+          class="btn btn-sm btn-outline"
+        >
+          Ver más
+          <span aria-hidden="true">→</span>
+        </a> -->
+    </div>
+  </div>
+</section>

@@ -1,0 +1,598 @@
+[
+  {
+    "nombre": "128 guys 1 cup",
+    "id": 1
+  },
+  {
+    "nombre": "AC VALDRIC DE MATARÓ",
+    "id": 2
+  },
+  {
+    "nombre": "ADAR OKERRA",
+    "id": 3
+  },
+  {
+    "nombre": "Albatros Golfos",
+    "id": 4
+  },
+  {
+    "nombre": "Alcorcon City",
+    "id": 5
+  },
+  {
+    "nombre": "Alezkar Radiants",
+    "id": 6
+  },
+  {
+    "nombre": "Alicante Hens",
+    "id": 7
+  },
+  {
+    "nombre": "Altsasuko Packers",
+    "id": 8
+  },
+  {
+    "nombre": "Argentown Titans",
+    "id": 9
+  },
+  {
+    "nombre": "Arisoma Skunks",
+    "id": 10
+  },
+  {
+    "nombre": "Athletic Club 1001",
+    "id": 11
+  },
+  {
+    "nombre": "Athletic Txapeldun 2026",
+    "id": 12
+  },
+  {
+    "nombre": "ATLFalcons_cat",
+    "id": 13
+  },
+  {
+    "nombre": "Barcelona Bills",
+    "id": 14
+  },
+  {
+    "nombre": "Barcelona Colonels",
+    "id": 15
+  },
+  {
+    "nombre": "Barceló con coca-cola",
+    "id": 16
+  },
+  {
+    "nombre": "Bilbao Bisontes",
+    "id": 17
+  },
+  {
+    "nombre": "Boccaneers",
+    "id": 18
+  },
+  {
+    "nombre": "Bolt Land",
+    "id": 19
+  },
+  {
+    "nombre": "Boquerones de Málaga",
+    "id": 20
+  },
+  {
+    "nombre": "BOXING LINEBACKERS",
+    "id": 21
+  },
+  {
+    "nombre": "Burgos WinterWolves",
+    "id": 22
+  },
+  {
+    "nombre": "CalviLoverTeam",
+    "id": 23
+  },
+  {
+    "nombre": "CANTABRIC HAIL MARY",
+    "id": 24
+  },
+  {
+    "nombre": "Canteros de Alpedrete",
+    "id": 25
+  },
+  {
+    "nombre": "Carabanchel Convicts",
+    "id": 26
+  },
+  {
+    "nombre": "Cartago Helldogs",
+    "id": 27
+  },
+  {
+    "nombre": "CENTENARIASO",
+    "id": 28
+  },
+  {
+    "nombre": "Chalice Templars",
+    "id": 29
+  },
+  {
+    "nombre": "Clockwork Cheese",
+    "id": 30
+  },
+  {
+    "nombre": "Codex Thunders",
+    "id": 31
+  },
+  {
+    "nombre": "Colts del Ebro",
+    "id": 32
+  },
+  {
+    "nombre": "Cooper Cup",
+    "id": 33
+  },
+  {
+    "nombre": "coperos novatos",
+    "id": 34
+  },
+  {
+    "nombre": "DAOVIR DRAGONS",
+    "id": 35
+  },
+  {
+    "nombre": "DARK TRANQUILLITY",
+    "id": 36
+  },
+  {
+    "nombre": "Draven Raven",
+    "id": 37
+  },
+  {
+    "nombre": "El Flamenquín Automático",
+    "id": 38
+  },
+  {
+    "nombre": "Eraserhelmet",
+    "id": 39
+  },
+  {
+    "nombre": "ES MOLINAR BLEEDERS",
+    "id": 40
+  },
+  {
+    "nombre": "Este Agua de Bucarest",
+    "id": 41
+  },
+  {
+    "nombre": "Fombras",
+    "id": 42
+  },
+  {
+    "nombre": "Galician Sailors",
+    "id": 43
+  },
+  {
+    "nombre": "Gansmoe La Copa América",
+    "id": 44
+  },
+  {
+    "nombre": "Gerandir's Silverbacks",
+    "id": 45
+  },
+  {
+    "nombre": "Girona Immortals",
+    "id": 46
+  },
+  {
+    "nombre": "Gloriosos",
+    "id": 47
+  },
+  {
+    "nombre": "Gold Rush",
+    "id": 48
+  },
+  {
+    "nombre": "GoldenDucks",
+    "id": 49
+  },
+  {
+    "nombre": "Gracia Saints",
+    "id": 50
+  },
+  {
+    "nombre": "Granada's Snakes",
+    "id": 51
+  },
+  {
+    "nombre": "Grupo 303 de Estudios Logísticos",
+    "id": 52
+  },
+  {
+    "nombre": "Infante Cobras",
+    "id": 53
+  },
+  {
+    "nombre": "Infer Devils",
+    "id": 54
+  },
+  {
+    "nombre": "Iowa_515",
+    "id": 55
+  },
+  {
+    "nombre": "Iruña Ciity Axes",
+    "id": 56
+  },
+  {
+    "nombre": "Ithilien Rangers",
+    "id": 57
+  },
+  {
+    "nombre": "jabalipackers",
+    "id": 58
+  },
+  {
+    "nombre": "JaviTripulante",
+    "id": 59
+  },
+  {
+    "nombre": "JR2.0",
+    "id": 60
+  },
+  {
+    "nombre": "Kepler Kea",
+    "id": 61
+  },
+  {
+    "nombre": "Kickers are People too",
+    "id": 62
+  },
+  {
+    "nombre": "Kyoto Sanga",
+    "id": 63
+  },
+  {
+    "nombre": "La Copa Blues",
+    "id": 64
+  },
+  {
+    "nombre": "La Mancha Raiders",
+    "id": 65
+  },
+  {
+    "nombre": "La Mancha Windmills",
+    "id": 66
+  },
+  {
+    "nombre": "La nube del eclipse",
+    "id": 67
+  },
+  {
+    "nombre": "La Vall Raiders",
+    "id": 68
+  },
+  {
+    "nombre": "LA VIEJA GUARDIA",
+    "id": 69
+  },
+  {
+    "nombre": "Legio VII Soldiers",
+    "id": 70
+  },
+  {
+    "nombre": "Legio XXXIII",
+    "id": 71
+  },
+  {
+    "nombre": "LeMaxBron",
+    "id": 72
+  },
+  {
+    "nombre": "Les Corts Dolphins",
+    "id": 73
+  },
+  {
+    "nombre": "Liencres Cats",
+    "id": 74
+  },
+  {
+    "nombre": "Lions of Death Metal",
+    "id": 75
+  },
+  {
+    "nombre": "Longsuckers",
+    "id": 76
+  },
+  {
+    "nombre": "Los Husky Torpes",
+    "id": 77
+  },
+  {
+    "nombre": "Los Pollos de la Frontera",
+    "id": 78
+  },
+  {
+    "nombre": "Los Vikingos del Norte",
+    "id": 79
+  },
+  {
+    "nombre": "Machuca's Knights",
+    "id": 80
+  },
+  {
+    "nombre": "MacKBears Blinders",
+    "id": 81
+  },
+  {
+    "nombre": "Madrid Leños",
+    "id": 82
+  },
+  {
+    "nombre": "Mallorcadebou",
+    "id": 83
+  },
+  {
+    "nombre": "Manrússia redwolfs",
+    "id": 84
+  },
+  {
+    "nombre": "Markin hunter Deluxe",
+    "id": 85
+  },
+  {
+    "nombre": "Mataró Tigers",
+    "id": 86
+  },
+  {
+    "nombre": "Mayfield of Dreams",
+    "id": 87
+  },
+  {
+    "nombre": "Mercenarios Guinardo",
+    "id": 88
+  },
+  {
+    "nombre": "Miranda Blue Eagles Fly",
+    "id": 89
+  },
+  {
+    "nombre": "MOGA. Make Ogro Great Again",
+    "id": 90
+  },
+  {
+    "nombre": "Mogoda Saints Peepers",
+    "id": 91
+  },
+  {
+    "nombre": "NachoB_72",
+    "id": 92
+  },
+  {
+    "nombre": "New Spain' Stormy",
+    "id": 93
+  },
+  {
+    "nombre": "Niners Madrid",
+    "id": 94
+  },
+  {
+    "nombre": "Orejona",
+    "id": 95
+  },
+  {
+    "nombre": "OROTAVA BENGALS",
+    "id": 96
+  },
+  {
+    "nombre": "Osos de Carabanchel",
+    "id": 97
+  },
+  {
+    "nombre": "Oviedo Blitz",
+    "id": 98
+  },
+  {
+    "nombre": "Patxi Rock Team",
+    "id": 99
+  },
+  {
+    "nombre": "Pharma Team",
+    "id": 100
+  },
+  {
+    "nombre": "Plencia reyes del Blitz",
+    "id": 101
+  },
+  {
+    "nombre": "pobredeti",
+    "id": 102
+  },
+  {
+    "nombre": "Polichinela Jax",
+    "id": 103
+  },
+  {
+    "nombre": "Pucela Honey Badgers",
+    "id": 104
+  },
+  {
+    "nombre": "Pucelanders",
+    "id": 105
+  },
+  {
+    "nombre": "Purple Lions",
+    "id": 106
+  },
+  {
+    "nombre": "QuesosYPalas2Go",
+    "id": 107
+  },
+  {
+    "nombre": "Quintos Sertorios",
+    "id": 108
+  },
+  {
+    "nombre": "Redwine",
+    "id": 109
+  },
+  {
+    "nombre": "Regimetro Lions",
+    "id": 110
+  },
+  {
+    "nombre": "Rhinoceros Carcomas",
+    "id": 111
+  },
+  {
+    "nombre": "Rivas 25ers",
+    "id": 112
+  },
+  {
+    "nombre": "Rivas Jokers",
+    "id": 113
+  },
+  {
+    "nombre": "robsteelers",
+    "id": 114
+  },
+  {
+    "nombre": "Rubí Bòdums",
+    "id": 115
+  },
+  {
+    "nombre": "Sabadell Sharks",
+    "id": 116
+  },
+  {
+    "nombre": "San Antonio Patriots",
+    "id": 117
+  },
+  {
+    "nombre": "San Tomás de los Anillos",
+    "id": 118
+  },
+  {
+    "nombre": "Sant Domingo Snapper",
+    "id": 119
+  },
+  {
+    "nombre": "Sardaco Duckrats",
+    "id": 120
+  },
+  {
+    "nombre": "Sevilla Blue Dogs",
+    "id": 121
+  },
+  {
+    "nombre": "Sinticops",
+    "id": 122
+  },
+  {
+    "nombre": "Sol y Sombra",
+    "id": 123
+  },
+  {
+    "nombre": "Sospechosos Habituales",
+    "id": 124
+  },
+  {
+    "nombre": "Spectrums",
+    "id": 125
+  },
+  {
+    "nombre": "Staten Island Stapletons",
+    "id": 126
+  },
+  {
+    "nombre": "STEELDRAGON",
+    "id": 127
+  },
+  {
+    "nombre": "Stiaua del grifo",
+    "id": 128
+  },
+  {
+    "nombre": "Stockton Springs Community",
+    "id": 129
+  },
+  {
+    "nombre": "SUJÉTAME EL CUBATA",
+    "id": 130
+  },
+  {
+    "nombre": "TerryTeamMex",
+    "id": 131
+  },
+  {
+    "nombre": "The Last Pick",
+    "id": 132
+  },
+  {
+    "nombre": "The Viking Chief",
+    "id": 133
+  },
+  {
+    "nombre": "Tizona Storm",
+    "id": 134
+  },
+  {
+    "nombre": "Torrelles armadillos",
+    "id": 135
+  },
+  {
+    "nombre": "Trigunners",
+    "id": 136
+  },
+  {
+    "nombre": "Txakalito Bills",
+    "id": 137
+  },
+  {
+    "nombre": "Txupinazo en la End Zone",
+    "id": 138
+  },
+  {
+    "nombre": "TYRIONs VICEs",
+    "id": 139
+  },
+  {
+    "nombre": "Una copa de Ravens",
+    "id": 140
+  },
+  {
+    "nombre": "Valencia Bats",
+    "id": 141
+  },
+  {
+    "nombre": "Valencia Bats forever",
+    "id": 142
+  },
+  {
+    "nombre": "Villasack de Abajo",
+    "id": 143
+  },
+  {
+    "nombre": "Villatorrija Linces",
+    "id": 144
+  },
+  {
+    "nombre": "Vlc Flames",
+    "id": 145
+  },
+  {
+    "nombre": "Wine Receiver",
+    "id": 146
+  },
+  {
+    "nombre": "WR del montón busca piso en Alcorcón",
+    "id": 147
+  },
+  {
+    "nombre": "ZAMORA BULLS",
+    "id": 148
+  },
+  {
+    "nombre": "Zaragoza Cup Winners Cup",
+    "id": 149
+  }
+]

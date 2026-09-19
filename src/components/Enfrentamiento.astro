@@ -1,0 +1,265 @@
+---
+import "../styles/global.css";
+import TeamCard from "../components/TeamCard.astro";
+import { calcularBestballEquipo } from "../lib/puntuaciones";
+import { obtenerEquipo } from "../lib/equipos";
+
+interface Props {
+  enJuego: boolean;  
+  equipo1Id: number;
+  equipo2Id: number;
+  jornada: number;
+  bestBall1?: {
+    puntosTotales: number;
+    jugadores: {
+      id: number;
+      nombre: string;
+      puntos: number;
+      posicion: string;
+      foto: string;
+    }[];
+  };
+  bestBall2?: {
+    puntosTotales: number;
+    jugadores: {
+      id: number;
+      nombre: string;
+      puntos: number;
+      posicion: string;
+      foto: string;
+    }[];
+  };
+}
+
+const { enJuego, equipo1Id, equipo2Id, jornada, bestBall1, bestBall2 } = Astro.props;
+const equipo1 = obtenerEquipo(equipo1Id);
+const equipo2 = obtenerEquipo(equipo2Id);
+---
+<div
+        tabindex="0"
+        class="text-primary-content focus:border border-primary focus:text-primary collapse"
+        >
+            <div class="collapse-title px-2 font-semibold">
+                <div class="grid w-full grid-cols-[1fr_auto_1fr] items-center">
+                    <TeamCard equipoId={equipo1Id} puntos={bestBall1?.puntosTotales.toFixed(2)}></TeamCard>
+                    <div class="divider divider-horizontal text-accent">VS</div>
+                    <TeamCard equipoId={equipo2Id} puntos={bestBall2?.puntosTotales.toFixed(2)}></TeamCard>
+                </div>
+            </div>
+            <div class="hidden md:inline collapse-content text-sm border-primary">
+                <div class="grid w-full grid-cols-[1fr_auto_1fr] items-start">
+                    <!-- Pasar a componente aparte para que sea más limpio y reutilizable. Recibe lista de jugadores y puntos -->
+                    <div class="card rounded-box min-w-0">
+                            <table class="table">
+                                <!-- head -->
+                                <thead>
+                                <tr>
+                                    <th>POS</th>
+                                    <th>JUGADOR</th>
+                                    <th>PUNTOS</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <!-- row 1 -->
+                                {bestBall1?.jugadores.map((jugador) => (
+                                    !(jugador.puntos == 0 && enJuego) && (
+                                    <tr>
+                                        <th>
+                                        <div class="text-4xl font-thin opacity-30 tabular-nums">{jugador.posicion}</div>
+                                        </th>
+                                        <td>
+                                        <a href={`/jugadores/${jugador.id}`}>
+                                        <div class="flex items-center gap-3">
+                                            <div class="avatar">
+                                            <div class="mask mask-squircle h-12 w-12">
+                                                <img
+                                                src={jugador.foto && jugador.foto !== "" ? jugador.foto : "/helmet.png" }
+                                                />
+                                            </div>
+                                            </div>
+                                            <div>
+                                            <div class="font-bold">{jugador.nombre}</div>
+                                            </div>
+                                        </div>
+                                        </a>
+                                        </td>
+                                        <td>
+                                        <div class="font-bold">{jugador.puntos.toFixed(2)}</div>
+                                        </td>
+                                    </tr>
+                                    )
+                                ))}
+                                
+                                </tbody>
+                                <!-- foot -->
+                                <tfoot>
+                                    <tr>
+                                        <th class="text-xl font-bold text-primary" colspan="2">Total</th>
+                                        <th class="text-xl font-bold text-primary">{bestBall1?.puntosTotales.toFixed(2)}</th>
+                                    </tr>
+                                </tfoot>
+                            </table>
+                    </div>
+                    <div class="divider divider-horizontal text-accent">VS</div>
+                    <div class="card rounded-box grid grow place-items-center">
+                            <table class="table">
+                                <!-- head -->
+                                <thead>
+                                <tr>
+                                    <th>POS</th>
+                                    <th>JUGADOR</th>
+                                    <th>PUNTOS</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <!-- row 1 -->
+                                {bestBall2?.jugadores.map((jugador) => (
+                                    !(jugador.puntos == 0 && enJuego) && (
+                                    <tr>
+                                        <th>
+                                        <div class="text-4xl font-thin opacity-30 tabular-nums">{jugador.posicion}</div>
+                                        </th>
+                                        <td>
+                                        <a href={`/jugadores/${jugador.id}`}>
+                                        <div class="flex items-center gap-3">
+                                            <div class="avatar">
+                                            <div class="mask mask-squircle h-12 w-12">
+                                                <img
+                                                src={jugador.foto && jugador.foto !== "" ? jugador.foto : "/helmet.png" }
+                                                />
+                                            </div>
+                                            </div>
+                                            <div>
+                                            <div class="font-bold">{jugador.nombre}</div>
+                                            </div>
+                                        </div>
+                                        </a>
+                                        </td>
+                                        <td>
+                                        <div class="font-bold">{jugador.puntos.toFixed(2)}</div>
+                                        </td>
+                                    </tr>
+                                    )
+                                ))}
+                                
+                                </tbody>
+                                <!-- foot -->
+                                <tfoot>
+                                    <tr>
+                                        <th class="text-xl font-bold text-primary" colspan="2">Total</th>
+                                        <th class="text-xl font-bold text-primary">{bestBall2?.puntosTotales.toFixed(2)}</th>
+                                    </tr>
+                                </tfoot>
+                            </table>
+                    </div>
+                </div>
+            </div>
+            <div class="md:hidden collapse-content text-sm border-primary">
+                <div class="grid w-full items-start">
+                    <!-- Pasar a componente aparte para que sea más limpio y reutilizable. Recibe lista de jugadores y puntos -->
+                    <div class="card rounded-box min-w-0">
+                            <table class="table">
+                                <!-- head -->
+                                <thead>
+                                <tr>
+                                    <th>POS</th>
+                                    <th>JUGADOR</th>
+                                    <th>PUNTOS</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <!-- row 1 -->
+                                {bestBall1?.jugadores.map((jugador) => (
+                                    jugador.puntos > 0 && enJuego && (
+                                    <tr>
+                                        <th>
+                                        <div class="text-xl font-thin opacity-60 tabular-nums">{jugador.posicion}</div>
+                                        </th>
+                                        <td>
+                                        <a href={`/jugadores/${jugador.id}`}>
+                                        <div class="flex items-center gap-3">
+                                            <div class="avatar">
+                                            <div class="mask mask-squircle h-8 w-8">
+                                                <img
+                                                src={jugador.foto && jugador.foto !== "" ? jugador.foto : "/helmet.png" }
+                                                />
+                                            </div>
+                                            </div>
+                                            <div>
+                                            <div class="font-bold">{jugador.nombre}</div>
+                                            </div>
+                                        </div>
+                                        </a>
+                                        </td>
+                                        <td>
+                                        <div class="font-bold">{jugador.puntos.toFixed(2)}</div>
+                                        </td>
+                                    </tr>
+                                    )
+                                ))}
+                                
+                                </tbody>
+                                <!-- foot -->
+                                <tfoot>
+                                    <tr>
+                                        <th class="text-lg font-bold text-primary" colspan="2">{equipo1?.nombre}</th>
+                                        <th class="text-lg font-bold text-primary">{bestBall1?.puntosTotales.toFixed(2)}</th>
+                                    </tr>
+                                </tfoot>
+                            </table>
+                    </div>
+                    <div class="divider text-accent font-bold">VS</div>
+                    <div class="card rounded-box grid grow place-items-center">
+                            <table class="table">
+                                <!-- head -->
+                                <thead>
+                                <tr>
+                                    <th>POS</th>
+                                    <th>JUGADOR</th>
+                                    <th>PUNTOS</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <!-- row 1 -->
+                                {bestBall2?.jugadores.map((jugador) => (
+                                    jugador.puntos > 0 && enJuego && (
+                                    <tr>
+                                        <th>
+                                        <div class="text-xl font-thin opacity-60 tabular-nums">{jugador.posicion}</div>
+                                        </th>
+                                        <td>
+                                        <a href={`/jugadores/${jugador.id}`}>
+                                        <div class="flex items-center gap-3">
+                                            <div class="avatar">
+                                            <div class="mask mask-squircle h-8 w-8">
+                                                <img
+                                                src={jugador.foto && jugador.foto !== "" ? jugador.foto : "/helmet.png" }
+                                                />
+                                            </div>
+                                            </div>
+                                            <div>
+                                            <div class="font-bold">{jugador.nombre}</div>
+                                            </div>
+                                        </div>
+                                        </a>
+                                        </td>
+                                        <td>
+                                        <div class="font-bold">{jugador.puntos.toFixed(2)}</div>
+                                        </td>
+                                    </tr>
+                                    )
+                                ))}
+                                
+                                </tbody>
+                                <!-- foot -->
+                                <tfoot>
+                                    <tr>
+                                        <th class="text-lg font-bold text-primary" colspan="2">{equipo2?.nombre}</th>
+                                        <th class="text-lg font-bold text-primary">{bestBall2?.puntosTotales.toFixed(2)}</th>
+                                    </tr>
+                                </tfoot>
+                            </table>
+                    </div>
+                </div>
+            </div>
+        </div>

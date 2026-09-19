@@ -1,0 +1,109 @@
+---
+import Layout from "../layouts/Layout.astro";
+import jugadoresData from "../../data/jugadores.json"
+import puntosData from "../../data/puntos.json"
+import rostersData from "../../data/rosters.json"
+import ResumenJugadores from "@/components/ResumenJugadores.astro";
+import { obtenerJugadoresMasPresentes, obtenerJugadoresRecord } from "@/lib/estadisticas";
+import EstadisticasJugadores from "../components/EstadisticasJugadores.astro";
+
+jugadoresData.sort((a, b) => a.posicion.localeCompare(b.posicion) || a.nombre.localeCompare(b.nombre));
+const jugadoresMasPresentes = obtenerJugadoresMasPresentes(rostersData, jugadoresData)
+const jugadoresRecrod = obtenerJugadoresRecord(jugadoresData, puntosData)
+---
+
+<Layout title={`La Copa de las 1001 | Jugadores`}>
+
+  {jugadoresData ? (
+    <main>
+        <div class="flex justify-center">
+            <EstadisticasJugadores estadisticas={jugadoresMasPresentes} />
+        </div>
+        <div class="flex justify-center">
+            <ResumenJugadores/>
+        </div>
+        <div class="m-4 flex justify-center">
+            <label class="input">
+                <svg
+                class="h-[1em] opacity-50"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                >
+                <g
+                    stroke-linejoin="round"
+                    stroke-linecap="round"
+                    stroke-width="2.5"
+                    fill="none"
+                    stroke="currentColor"
+                >
+                    <circle cx="11" cy="11" r="8"></circle>
+                    <path d="m21 21-4.3-4.3"></path>
+                </g>
+                </svg>
+
+                <input
+                id="buscador-jugadores"
+                type="search"
+                class="grow"
+                placeholder="Buscar jugador..."
+                />
+            </label>
+      </div>
+      <div class="m-8">
+      <table class="table">
+            <thead>
+            <tr>
+                <th>JUGADOR</th>
+                <th>POS</th>
+            </tr>
+            </thead>
+            <tbody>
+            {jugadoresData.map((jugador, index) => (
+            <tr class="jugador" data-nombre={jugador.nombre.toLowerCase()}>
+                <td>
+                <a href={`/jugadores/${jugador.id}`}>
+                <div class="flex items-center gap-3">
+                    <div class="avatar">
+                    <div class="mask mask-squircle h-12 w-12">
+                        <img
+                        src={jugador.foto && jugador.foto !== "" ? jugador.foto : "/helmet.png"}
+                        />
+                    </div>
+                    </div>
+                    <div>
+                    <div class="font-bold md:text-lg">{jugador.nombre}</div>
+                    </div>
+                </div>
+                </a>
+                </td>
+                <th>
+                <div class="text-4xl font-thin tabular-nums">{jugador.posicion}</div>
+                </th>
+            </tr>
+            ))}
+            
+            </tbody>
+        </table>
+        </div>
+    </main>
+  ) : (
+    <p>Jugadores no encontrados</p>
+  )}
+
+</Layout>
+<script>
+  const buscador = document.querySelector<HTMLInputElement>("#buscador-jugadores");
+  const jugadores = document.querySelectorAll<HTMLElement>(".jugador");
+
+  buscador?.addEventListener("input", () => {
+    const busqueda = buscador.value.toLowerCase().trim();
+
+    jugadores.forEach((jugador) => {
+      const nombre = jugador.dataset.nombre ?? "";
+
+      jugador.style.display = nombre.includes(busqueda)
+        ? ""
+        : "none";
+    });
+  });
+</script>

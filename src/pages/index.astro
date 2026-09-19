@@ -1,17 +1,109 @@
 ---
+import Layout from "../layouts/Layout.astro";
+import Enfrentamiento from "../components/Enfrentamiento.astro";
+import { getJornadaActual, getJornadaPorNumero, obtenerRonda } from "../lib/jornadas";
+import { calcularBestballEquipo } from "../lib/puntuaciones";
+import { obtenerEquipo } from "../lib/equipos";
+import { calcularEstadisticasJornada } from "../lib/estadisticas";
+import enfrentamientosData from "../../data/enfrentamientos.json";
+import EstadisticasJornada from "../components/EstadisticasJornada.astro";
+import "../styles/global.css";
 
+const jornadaParam = Astro.url.searchParams.get("semana");
+const jornadaActual = jornadaParam
+    ? getJornadaPorNumero(Number(jornadaParam))
+    : getJornadaActual();
+const jornadaSeleccionada = jornadaActual.jornada.jornada;
+const enJuego = jornadaActual.enJuego;
+const rondaActual = obtenerRonda(jornadaActual.jornada.ronda);
+const enfrentamientosRonda = enfrentamientosData.filter(enfrentamiento => enfrentamiento.ronda === jornadaActual.jornada.ronda)
+
+const datosEnfrentamientos = enfrentamientosRonda.map( (enfrentamiento) => 
+{ const equipo1 = obtenerEquipo( enfrentamiento.equipo1Id ); 
+  const equipo2 = obtenerEquipo( enfrentamiento.equipo2Id ); 
+  const bestball1 = calcularBestballEquipo( enfrentamiento.equipo1Id, jornadaSeleccionada ); 
+  const bestball2 = calcularBestballEquipo( enfrentamiento.equipo2Id, jornadaSeleccionada ); 
+  return { ...enfrentamiento, equipo1, equipo2, bestball1, bestball2 }; 
+});
+
+const estadisticas = calcularEstadisticasJornada( datosEnfrentamientos );
 ---
 
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<link rel="icon" href="/favicon.ico" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
-	</head>
-	<body>
-		<h1>Astro</h1>
-	</body>
-</html>
+<Layout title="La Copa de las 1001 | Inicio">
+
+  <!-- CABECERA DE LA RONDA -->
+  <section class="mb-8 text-center">
+    <p class="mb-2 text-sm font-medium uppercase tracking-widest text-base-content/60">
+      La página no oficial de seguimiento de la Copa de las 1001
+    </p>
+
+    <h1 class="text-3xl font-bold md:text-4xl">
+      Semana {jornadaSeleccionada} - {jornadaActual.jornada.rondaNombre}
+    </h1>
+
+    <!-- IDA / VUELTA -->
+    <div class="mt-5 flex justify-center">
+		<div class="tabs tabs-boxed">
+			{rondaActual.map((ronda, index) => (
+				<a  href={`?semana=${ronda.jornada}`} class:list={["tab", ronda.jornada === jornadaSeleccionada && "tab-active", "font-bold"]}>
+					PARTIDO {index + 1}
+				</a>
+			))}
+		</div>
+    </div>
+    {enJuego && (
+      <div role="alert" class="alert alert-warning">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 shrink-0 stroke-current" fill="none" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z" />
+        </svg>
+        <span>Jornada en juego. Datos reales provisionales que se actualizarán.</span>
+      </div>
+      )}
+  </section>
+  {enfrentamientosRonda.length > 0 && (
+    <EstadisticasJornada
+      jornada={jornadaSeleccionada}
+      mayorPuntuacion={{
+        equipo: estadisticas?.maxima?.nombre,
+        puntos: estadisticas?.maxima?.puntos
+      }}
+      menorPuntuacion={{
+        equipo: estadisticas?.minima?.nombre,
+        puntos: estadisticas?.minima?.puntos
+      }}
+      mejorJugador={{
+        nombre: estadisticas?.jugadorJornada?.nombre,
+        puntos: estadisticas?.jugadorJornada?.puntos
+      }}
+      mediaJornada={estadisticas?.media}
+      mayorDiferencia={{
+        equipo1: estadisticas?.mayorDiferencia?.equipo1,
+        equipo2: estadisticas?.mayorDiferencia?.equipo2,
+        puntos1: estadisticas?.mayorDiferencia?.puntos1,
+        puntos2: estadisticas?.mayorDiferencia?.puntos2,
+        diferencia: estadisticas?.mayorDiferencia?.diferencia
+      }}
+    />)
+  }
+
+  <!-- ENFRENTAMIENTOS -->
+  <section class="mb-8 text-center">
+    {enfrentamientosRonda.length > 0 ? (
+      datosEnfrentamientos.map((enfrentamiento) => (
+        <Enfrentamiento
+          enJuego={enJuego}        
+	    	  equipo1Id={enfrentamiento.equipo1Id}
+          equipo2Id={enfrentamiento.equipo2Id}
+          jornada={jornadaSeleccionada}
+          bestBall1={enfrentamiento.bestball1}
+          bestBall2={enfrentamiento.bestball2}
+        />
+      ))
+    ) : (
+    <div class="flex h-96 w-full items-center justify-center">
+      <p class="text-accent text-xl">Enfrentamientos por definir para esta ronda.</p>
+    </div>
+    )}
+  </section>
+
+</Layout>

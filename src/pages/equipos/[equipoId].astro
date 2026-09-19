@@ -1,0 +1,27 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import { obtenerEquipo } from "../../lib/equipos";
+import TablaJugadoresEquipo from "../../components/TablaJugadoresEquipo.astro";
+const { equipoId } = Astro.params;
+
+const equipo = obtenerEquipo(Number(equipoId));
+---
+
+<Layout title={`La Copa de las 1001 | ${equipo?.nombre ?? "Equipo"}`}>
+
+  {equipo ? (
+    <main>
+      <h1 class="text-3xl font-bold">
+        {equipo.nombre}
+      </h1>
+      <div class="m-2">
+        <TablaJugadoresEquipo equipoId={equipo.id} />
+        </div>
+    </main>
+  ) : (
+    <div class="flex h-96 w-full items-center justify-center">
+      <p class="text-accent text-xl">Equipo no encontrado</p>
+    </div>
+  )}
+
+</Layout>
