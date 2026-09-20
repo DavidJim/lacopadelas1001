@@ -170,7 +170,7 @@ const equipo2 = obtenerEquipo(equipo2Id);
                                 <tbody>
                                 <!-- row 1 -->
                                 {bestBall1?.jugadores.map((jugador) => (
-                                    jugador.puntos > 0 && enJuego && (
+                                     !(jugador.puntos == 0 && enJuego) && (
                                     <tr>
                                         <th>
                                         <div class="text-xl font-thin opacity-60 tabular-nums">{jugador.posicion}</div>
@@ -222,7 +222,7 @@ const equipo2 = obtenerEquipo(equipo2Id);
                                 <tbody>
                                 <!-- row 1 -->
                                 {bestBall2?.jugadores.map((jugador) => (
-                                    jugador.puntos > 0 && enJuego && (
+                                     !(jugador.puntos == 0 && enJuego) && (
                                     <tr>
                                         <th>
                                         <div class="text-xl font-thin opacity-60 tabular-nums">{jugador.posicion}</div>
