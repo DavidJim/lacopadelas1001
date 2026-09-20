@@ -21,6 +21,7 @@ const equipo = obtenerEquipo(equipoId);
             </div>
         )}
     </div>
+    {puntosRonda && (
     <div class="card bg-transparent border border-warning rounded-box grid w-full place-items-center">
         <div class="text-xs font-bold text-primary">
              Total Ronda: 
@@ -28,6 +29,6 @@ const equipo = obtenerEquipo(equipoId);
         <div class="text-sm font-bold text-warning">
             {puntosRonda} PTS
         </div>
-    </div>
+    </div>)}
     </div>
 
