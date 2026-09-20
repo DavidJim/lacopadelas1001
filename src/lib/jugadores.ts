@@ -1,12 +1,13 @@
 import jugadores from "../../data/jugadores.json";
-import puntos from "../../data/puntos.json";
+// import puntos from "../../data/puntos.json";
+import { obtenerPuntos } from "@/lib/puntuaciones";
 import { getJornadaActual, obtenerRonda } from "./jornadas";
-
 
 export function obtenerJugador(jugadorId: number) {
   return jugadores.find((jugador) => jugador.id === jugadorId);
 }
-export function obtenerPuntosJugadorDetalle(jugadorId: number) {
+export async function obtenerPuntosJugadorDetalle(jugadorId: number) {
+    const puntos = await obtenerPuntos()
     const jornadaActual = getJornadaActual();
     const rondaActual = obtenerRonda(jornadaActual.jornada.ronda);
 

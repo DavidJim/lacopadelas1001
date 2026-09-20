@@ -7,7 +7,7 @@ interface Props {
 }
 const { equipoId } = Astro.props;
 const equipo = obtenerEquipo(Number(equipoId));
-const roster = equipo ? obtenerRoster(equipo.id) : null;
+const roster = equipo ? await obtenerRoster(equipo.id) : null;
 ---
 <table class="table">
   <thead>
@@ -19,7 +19,7 @@ const roster = equipo ? obtenerRoster(equipo.id) : null;
     </tr>
   </thead>
   <tbody>
-  {roster?.jugadores.map((jugador, index) => (
+  {roster?.jugadores?.map((jugador, index) => (
     <tr>
         <td>
           <a href={`/jugadores/${jugador?.jugador?.id}`}>

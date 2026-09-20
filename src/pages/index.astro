@@ -1,8 +1,8 @@
 ---
 import Layout from "../layouts/Layout.astro";
 import Enfrentamiento from "../components/Enfrentamiento.astro";
-import { getJornadaActual, getJornadaPorNumero, obtenerRonda } from "../lib/jornadas";
-import { calcularBestballEquipo } from "../lib/puntuaciones";
+import { getJornadaActual, getJornadaPorNumero, obtenerRonda, obtenerRondas } from "../lib/jornadas";
+import { calcularBestballEquipo, calcularPuntuacionRonda } from "../lib/puntuaciones";
 import { obtenerEquipo } from "../lib/equipos";
 import { calcularEstadisticasJornada } from "../lib/estadisticas";
 import enfrentamientosData from "../../data/enfrentamientos.json";
@@ -17,14 +17,17 @@ const jornadaSeleccionada = jornadaActual.jornada.jornada;
 const enJuego = jornadaActual.enJuego;
 const rondaActual = obtenerRonda(jornadaActual.jornada.ronda);
 const enfrentamientosRonda = enfrentamientosData.filter(enfrentamiento => enfrentamiento.ronda === jornadaActual.jornada.ronda)
-
-const datosEnfrentamientos = enfrentamientosRonda.map( (enfrentamiento) => 
+const rondas = obtenerRondas();
+const datosEnfrentamientos = await Promise.all(enfrentamientosRonda.map( async (enfrentamiento) => 
 { const equipo1 = obtenerEquipo( enfrentamiento.equipo1Id ); 
   const equipo2 = obtenerEquipo( enfrentamiento.equipo2Id ); 
-  const bestball1 = calcularBestballEquipo( enfrentamiento.equipo1Id, jornadaSeleccionada ); 
-  const bestball2 = calcularBestballEquipo( enfrentamiento.equipo2Id, jornadaSeleccionada ); 
-  return { ...enfrentamiento, equipo1, equipo2, bestball1, bestball2 }; 
-});
+  const bestball1 = await calcularBestballEquipo( enfrentamiento.equipo1Id, jornadaSeleccionada ); 
+  const bestball2 = await calcularBestballEquipo( enfrentamiento.equipo2Id, jornadaSeleccionada );
+  const puntuacionRondaEquipo1 = await calcularPuntuacionRonda(enfrentamiento.equipo1Id, enfrentamiento);
+  const puntuacionRondaEquipo2 = await calcularPuntuacionRonda(enfrentamiento.equipo2Id, enfrentamiento) 
+ 
+  return { ...enfrentamiento, equipo1, equipo2, bestball1, bestball2, puntuacionRondaEquipo1, puntuacionRondaEquipo2 }; 
+}));
 
 const estadisticas = calcularEstadisticasJornada( datosEnfrentamientos );
 ---
@@ -36,9 +39,30 @@ const estadisticas = calcularEstadisticasJornada( datosEnfrentamientos );
     <p class="mb-2 text-sm font-medium uppercase tracking-widest text-base-content/60">
       La página no oficial de seguimiento de la Copa de las 1001
     </p>
+    <!-- SELECTOR DE RONDA -->
+    <h2 class="text-xl font-bold md:text-xl mb-2">
+      Selector de ronda
+    </h2>
+    <div class="mb-4 flex justify-center">
+        <select
+            class="select select-lg select-accent w-full max-w-xs"
+            onchange="window.location.href = `?semana=${this.value}`"
+        >
+            {rondas.map((ronda) => (
+                <option
+                    value={ronda.primeraJornada}
+                    selected={ronda.ronda === jornadaActual.jornada.ronda}
+                >
+                    {ronda.nombre}
+                </option>
+            ))}
+        </select>
+    </div>
+
+    <!-- ... -->
 
     <h1 class="text-3xl font-bold md:text-4xl">
-      Semana {jornadaSeleccionada} - {jornadaActual.jornada.rondaNombre}
+      {jornadaActual.jornada.rondaNombre}
     </h1>
 
     <!-- IDA / VUELTA -->
@@ -56,7 +80,7 @@ const estadisticas = calcularEstadisticasJornada( datosEnfrentamientos );
         <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 shrink-0 stroke-current" fill="none" viewBox="0 0 24 24">
           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z" />
         </svg>
-        <span>Jornada en juego. Datos reales provisionales que se actualizarán.</span>
+        <span>Jornada en juego. Datos reales provisionales con actualización progresiva.</span>
       </div>
       )}
   </section>
@@ -98,6 +122,8 @@ const estadisticas = calcularEstadisticasJornada( datosEnfrentamientos );
           jornada={jornadaSeleccionada}
           bestBall1={enfrentamiento.bestball1}
           bestBall2={enfrentamiento.bestball2}
+          puntuacionRondaEquipo1={enfrentamiento.puntuacionRondaEquipo1}
+          puntuacionRondaEquipo2={enfrentamiento.puntuacionRondaEquipo2}
         />
       ))
     ) : (

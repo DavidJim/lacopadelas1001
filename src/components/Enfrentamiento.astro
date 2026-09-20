@@ -1,7 +1,7 @@
 ---
 import "../styles/global.css";
 import TeamCard from "../components/TeamCard.astro";
-import { calcularBestballEquipo } from "../lib/puntuaciones";
+// import { calcularBestballEquipo } from "../lib/puntuaciones";
 import { obtenerEquipo } from "../lib/equipos";
 
 interface Props {
@@ -29,27 +29,39 @@ interface Props {
       foto: string;
     }[];
   };
+  puntuacionRondaEquipo1?:{
+    ronda: number;
+    puntosIda: number;
+    puntosVuelta: number;
+    total: number;
+  };
+  puntuacionRondaEquipo2?:{
+    ronda: number;
+    puntosIda: number;
+    puntosVuelta: number;
+    total: number;
+  }
 }
 
-const { enJuego, equipo1Id, equipo2Id, jornada, bestBall1, bestBall2 } = Astro.props;
+const { enJuego, equipo1Id, equipo2Id, jornada, bestBall1, bestBall2, puntuacionRondaEquipo1, puntuacionRondaEquipo2 } = Astro.props;
 const equipo1 = obtenerEquipo(equipo1Id);
 const equipo2 = obtenerEquipo(equipo2Id);
 ---
 <div
         tabindex="0"
-        class="text-primary-content focus:border border-primary focus:text-primary collapse"
+        class="text-primary-content focus:text-primary collapse"
         >
             <div class="collapse-title px-2 font-semibold">
                 <div class="grid w-full grid-cols-[1fr_auto_1fr] items-center">
-                    <TeamCard equipoId={equipo1Id} puntos={bestBall1?.puntosTotales.toFixed(2)}></TeamCard>
+                    <TeamCard equipoId={equipo1Id} puntosRonda={puntuacionRondaEquipo1?.total} puntos={bestBall1?.puntosTotales.toFixed(2)}></TeamCard>
                     <div class="divider divider-horizontal text-accent">VS</div>
-                    <TeamCard equipoId={equipo2Id} puntos={bestBall2?.puntosTotales.toFixed(2)}></TeamCard>
+                    <TeamCard equipoId={equipo2Id} puntosRonda={puntuacionRondaEquipo2?.total} puntos={bestBall2?.puntosTotales.toFixed(2)}></TeamCard>
                 </div>
             </div>
-            <div class="hidden md:inline collapse-content text-sm border-primary">
+            <div class="hidden md:inline collapse-content text-sm">
                 <div class="grid w-full grid-cols-[1fr_auto_1fr] items-start">
                     <!-- Pasar a componente aparte para que sea más limpio y reutilizable. Recibe lista de jugadores y puntos -->
-                    <div class="card rounded-box min-w-0">
+                    <div class="card rounded-box min-w-0 text-primary">
                             <table class="table">
                                 <!-- head -->
                                 <thead>
@@ -101,7 +113,7 @@ const equipo2 = obtenerEquipo(equipo2Id);
                             </table>
                     </div>
                     <div class="divider divider-horizontal text-accent">VS</div>
-                    <div class="card rounded-box grid grow place-items-center">
+                    <div class="card rounded-box grid grow place-items-center text-primary">
                             <table class="table">
                                 <!-- head -->
                                 <thead>
@@ -154,8 +166,8 @@ const equipo2 = obtenerEquipo(equipo2Id);
                     </div>
                 </div>
             </div>
-            <div class="md:hidden collapse-content text-sm border-primary">
-                <div class="grid w-full items-start">
+            <div class="md:hidden collapse-content text-sm">
+                <div class="grid w-full items-start text-primary">
                     <!-- Pasar a componente aparte para que sea más limpio y reutilizable. Recibe lista de jugadores y puntos -->
                     <div class="card rounded-box min-w-0">
                             <table class="table">
@@ -209,7 +221,7 @@ const equipo2 = obtenerEquipo(equipo2Id);
                             </table>
                     </div>
                     <div class="divider text-accent font-bold">VS</div>
-                    <div class="card rounded-box grid grow place-items-center">
+                    <div class="card rounded-box grid grow place-items-center text-primary">
                             <table class="table">
                                 <!-- head -->
                                 <thead>
@@ -254,7 +266,7 @@ const equipo2 = obtenerEquipo(equipo2Id);
                                 <!-- foot -->
                                 <tfoot>
                                     <tr>
-                                        <th class="text-lg font-bold text-primary" colspan="2">{equipo2?.nombre}</th>
+                                        <th class="text-lg font-bold text-primary break-words whitespace-normal" colspan="2">{equipo2?.nombre}</th>
                                         <th class="text-lg font-bold text-primary">{bestBall2?.puntosTotales.toFixed(2)}</th>
                                     </tr>
                                 </tfoot>

@@ -54,3 +54,19 @@ export function getJornadaActual() {
 
     return { jornada: ultimaJornada, enJuego: false };
 }
+
+export function obtenerRondas() {
+    const rondas = new Map();
+
+    for (const jornada of jornadas) {
+        if (!rondas.has(jornada.ronda)) {
+            rondas.set(jornada.ronda, {
+                ronda: jornada.ronda,
+                nombre: jornada.rondaNombre,
+                primeraJornada: jornada.jornada
+            });
+        }
+    }
+
+    return [...rondas.values()];
+}

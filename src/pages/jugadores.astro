@@ -1,12 +1,13 @@
 ---
 import Layout from "../layouts/Layout.astro";
 import jugadoresData from "../../data/jugadores.json"
-import puntosData from "../../data/puntos.json"
+// import puntosData from "../../data/puntos.json"
+import { obtenerPuntos } from "@/lib/puntuaciones";
 import rostersData from "../../data/rosters.json"
 import ResumenJugadores from "@/components/ResumenJugadores.astro";
 import { obtenerJugadoresMasPresentes, obtenerJugadoresRecord } from "@/lib/estadisticas";
 import EstadisticasJugadores from "../components/EstadisticasJugadores.astro";
-
+const puntosData = await obtenerPuntos();
 jugadoresData.sort((a, b) => a.posicion.localeCompare(b.posicion) || a.nombre.localeCompare(b.nombre));
 const jugadoresMasPresentes = obtenerJugadoresMasPresentes(rostersData, jugadoresData)
 const jugadoresRecrod = obtenerJugadoresRecord(jugadoresData, puntosData)

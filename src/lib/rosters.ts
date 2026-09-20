@@ -2,7 +2,7 @@ import rosters from "../../data/rosters.json";
 import jugadores from "../../data/jugadores.json"
 import { obtenerPuntosJugadorDetalle } from "./jugadores";
 
-export function obtenerRoster(equipoId: number) {
+export async function obtenerRoster(equipoId: number) {
     const roster = rosters.find((roster) => roster.equipoId === equipoId);
     if (!roster) return null;
 
@@ -14,9 +14,9 @@ export function obtenerRoster(equipoId: number) {
         throw new Error('No hay jugadores disponibles para el roster');
     };
 
-    const detalleJugadores = jugadoresDelRoster.map((jugador) => {
-        return obtenerPuntosJugadorDetalle(jugador!.id);
-    });
+    const detalleJugadores = await Promise.all(jugadoresDelRoster.map(async(jugador) => {
+        return await obtenerPuntosJugadorDetalle(jugador!.id);
+    }));
 
     return { ...roster, jugadores: detalleJugadores };
 }

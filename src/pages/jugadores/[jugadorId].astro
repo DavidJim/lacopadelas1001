@@ -5,7 +5,7 @@ import rostersData from "../../../data/rosters.json";
 
 const { jugadorId } = Astro.params;
 
-const jugador = obtenerPuntosJugadorDetalle(Number(jugadorId));
+const jugador = await obtenerPuntosJugadorDetalle(Number(jugadorId));
 const rosterNumber = rostersData.filter(roster => roster.jugadores.some(j => j === Number(jugadorId))).length;
 ---
 

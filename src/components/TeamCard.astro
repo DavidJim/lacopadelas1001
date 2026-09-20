@@ -1,21 +1,30 @@
 ---
 import "../styles/global.css";
 import { obtenerEquipo } from "../lib/equipos";
+import type { number } from "astro:schema";
 
 interface Props {
   equipoId: number;
   puntos?: string | number;
+  puntosRonda?: string | number;
 }
 
-const { equipoId, puntos } = Astro.props;
+const { equipoId, puntos, puntosRonda } = Astro.props;
 const equipo = obtenerEquipo(equipoId);
 ---
-    <div class="card bg-primary text-primary-content rounded-box grid h-20 w-full place-items-center">
+    <div class="grid grid-col-1">
+    <div class="card mb-2 bg-primary text-primary-content rounded-box grid h-20 w-full place-items-center">
         {equipo?.nombre}
         {puntos !== undefined && (
-            <div class="text-sm font-bold text-primary-content/60">
+            <div class="text-md font-bold text-primary-content">
                 {puntos} PTS
             </div>
         )}
+    </div>
+    <div class="card bg-transparent border border-warning rounded-box grid h-6 w-full place-items-center">
+        <div class="text-sm font-bold text-warning">
+            Total Ronda: {puntosRonda} PTS
+        </div>
+    </div>
     </div>
 
