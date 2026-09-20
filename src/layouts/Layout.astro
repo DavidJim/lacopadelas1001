@@ -9,14 +9,14 @@ const { title = "La Copa de las 1001" } = Astro.props;
 ---
 
 <!doctype html>
-<html lang="es">
+<html lang="es" data-theme="copa-dark">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
     <meta name="description" content="La Copa de Las 1001 Fantasy" />
     <title>{title}</title>
     <script is:inline>
-        const savedTheme = localStorage.getItem("theme") || "copa-light";
+        const savedTheme = localStorage.getItem("theme") || "copa-dark";
         document.documentElement.setAttribute("data-theme", savedTheme);
     </script>
   </head>
@@ -141,14 +141,14 @@ const { title = "La Copa de las 1001" } = Astro.props;
 
         <div class="flex gap-5 text-sm">
           <a target="_blank" href="https://www.las1001fantasy.com/_files/ugd/a7a386_35795666e3b645a486f6fc5257db6db3.pdf" class="link link-hover">
-            Normativa
+            Normativa Copa
           </a>
 
-          <a href="#" class="link link-hover">
+          <a target="_blank" href="https://www.instagram.com/las1001fantasy/" class="link link-hover">
             Instagram
           </a>
 
-          <a href="#" class="link link-hover">
+          <a target="_blank" href="https://x.com/las1001fantasy" class="link link-hover">
             X
           </a>
         </div>

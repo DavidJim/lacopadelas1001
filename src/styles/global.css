@@ -1,6 +1,10 @@
 @import "tailwindcss";
 @plugin "daisyui";
 
+@plugin "daisyui" {
+  themes: copa-dark --default, copa-light;
+}
+
 @plugin "daisyui/theme" {
   name: "copa-light";
 
@@ -19,7 +23,6 @@
 
 @plugin "daisyui/theme" {
   name: "copa-dark";
-  default: true;
 
   --color-base-100: #152331;
   --color-base-200: #0d1720;
