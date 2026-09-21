@@ -13,7 +13,7 @@ export async function obtenerPuntosJugadorDetalle(jugadorId: number) {
 
     const puntosJugador = puntos.filter(
         (punto) => punto.jugadorId === jugadorId
-    );
+    ).sort((a,b) => a.jornada - b.jornada);
 
     const puntosTotales = puntosJugador.reduce(
         (total, punto) => total + punto.puntos,
