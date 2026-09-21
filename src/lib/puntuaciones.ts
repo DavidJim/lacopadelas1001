@@ -1,6 +1,6 @@
 import jugadores from "../../data/jugadores.json";
 import rosters from "../../data/rosters.json";
-// import puntos from "../../data/puntos.json";
+import puntos from "../../data/puntos.json";
 import { calcularBestball, type JugadorBestball } from "./bestball";
 import { get } from "@vercel/blob";
 export interface Punto {
@@ -92,18 +92,19 @@ export async function calcularPuntuacionRonda(
 }
 
 export async function obtenerPuntos(): Promise<Punto[]> {
-  const result = await get(PUNTOS_PATH, {
-    access: "private",
-    useCache: false,
-    token: import.meta.env.BLOB_READ_WRITE_TOKEN,
+  // const result = await get(PUNTOS_PATH, {
+  //   access: "private",
+  //   useCache: false,
+  //   token: import.meta.env.BLOB_READ_WRITE_TOKEN,
 
-  });
+  // });
 
-  if (!result) {
-    return [];
-  }
+  // if (!result) {
+  //   return [];
+  // }
 
-  const text = await new Response(result.stream).text();
+  // const text = await new Response(result.stream).text();
 
-  return JSON.parse(text) as Punto[];
+  // return JSON.parse(text) as Punto[];
+  return puntos;
 }
