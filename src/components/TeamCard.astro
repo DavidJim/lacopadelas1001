@@ -7,9 +7,10 @@ interface Props {
   equipoId: number;
   puntos?: string | number;
   puntosRonda?: string | number;
+  estado?: string;
 }
 
-const { equipoId, puntos, puntosRonda } = Astro.props;
+const { equipoId, puntos, puntosRonda, estado } = Astro.props;
 const equipo = obtenerEquipo(equipoId);
 ---
     <div class="grid grid-col-1">
@@ -21,7 +22,7 @@ const equipo = obtenerEquipo(equipoId);
             </div>
         )}
     </div>
-    {puntosRonda && (
+    {estado && (
     <div class="card bg-transparent border border-warning rounded-box grid w-full place-items-center">
         <div class="text-xs font-bold text-primary">
              Total Ronda: 

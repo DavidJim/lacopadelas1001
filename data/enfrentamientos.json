@@ -208,5 +208,645 @@
       "ida": 1,
       "vuelta": 2
     }
+  },
+   {
+    "id": 22,
+    "ronda": 2,
+    "equipo1Id": 39,
+    "equipo2Id": 96,
+    "jornadas": {
+      "ida": 3,
+      "vuelta": 4
+    }
+  },
+  {
+    "id": 23,
+    "ronda": 2,
+    "equipo1Id": 22,
+    "equipo2Id": 20,
+    "jornadas": {
+      "ida": 3,
+      "vuelta": 4
+    }
+  },
+  {
+    "id": 24,
+    "ronda": 2,
+    "equipo1Id": 121,
+    "equipo2Id": 122,
+    "jornadas": {
+      "ida": 3,
+      "vuelta": 4
+    }
+  },
+  {
+    "id": 25,
+    "ronda": 2,
+    "equipo1Id": 114,
+    "equipo2Id": 1,
+    "jornadas": {
+      "ida": 3,
+      "vuelta": 4
+    }
+  },
+  {
+    "id": 26,
+    "ronda": 2,
+    "equipo1Id": 76,
+    "equipo2Id": 123,
+    "jornadas": {
+      "ida": 3,
+      "vuelta": 4
+    }
+  },
+  {
+    "id": 27,
+    "ronda": 2,
+    "equipo1Id": 134,
+    "equipo2Id": 15,
+    "jornadas": {
+      "ida": 3,
+      "vuelta": 4
+    }
+  },
+  {
+    "id": 28,
+    "ronda": 2,
+    "equipo1Id": 135,
+    "equipo2Id": 55,
+    "jornadas": {
+      "ida": 3,
+      "vuelta": 4
+    }
+  },
+  {
+    "id": 29,
+    "ronda": 2,
+    "equipo1Id": 87,
+    "equipo2Id": 129,
+    "jornadas": {
+      "ida": 3,
+      "vuelta": 4
+    }
+  },
+  {
+    "id": 30,
+    "ronda": 2,
+    "equipo1Id": 69,
+    "equipo2Id": 35,
+    "jornadas": {
+      "ida": 3,
+      "vuelta": 4
+    }
+  },
+  {
+    "id": 31,
+    "ronda": 2,
+    "equipo1Id": 31,
+    "equipo2Id": 19,
+    "jornadas": {
+      "ida": 3,
+      "vuelta": 4
+    }
+  },
+  {
+    "id": 32,
+    "ronda": 2,
+    "equipo1Id": 7,
+    "equipo2Id": 5,
+    "jornadas": {
+      "ida": 3,
+      "vuelta": 4
+    }
+  },
+  {
+    "id": 33,
+    "ronda": 2,
+    "equipo1Id": 64,
+    "equipo2Id": 37,
+    "jornadas": {
+      "ida": 3,
+      "vuelta": 4
+    }
+  },
+  {
+    "id": 34,
+    "ronda": 2,
+    "equipo1Id": 85,
+    "equipo2Id": 9,
+    "jornadas": {
+      "ida": 3,
+      "vuelta": 4
+    }
+  },
+  {
+    "id": 35,
+    "ronda": 2,
+    "equipo1Id": 139,
+    "equipo2Id": 136,
+    "jornadas": {
+      "ida": 3,
+      "vuelta": 4
+    }
+  },
+  {
+    "id": 36,
+    "ronda": 2,
+    "equipo1Id": 100,
+    "equipo2Id": 45,
+    "jornadas": {
+      "ida": 3,
+      "vuelta": 4
+    }
+  },
+  {
+    "id": 37,
+    "ronda": 2,
+    "equipo1Id": 26,
+    "equipo2Id": 112,
+    "jornadas": {
+      "ida": 3,
+      "vuelta": 4
+    }
+  },
+  {
+    "id": 38,
+    "ronda": 2,
+    "equipo1Id": 145,
+    "equipo2Id": 93,
+    "jornadas": {
+      "ida": 3,
+      "vuelta": 4
+    }
+  },
+  {
+    "id": 39,
+    "ronda": 2,
+    "equipo1Id": 68,
+    "equipo2Id": 119,
+    "jornadas": {
+      "ida": 3,
+      "vuelta": 4
+    }
+  },
+  {
+    "id": 40,
+    "ronda": 2,
+    "equipo1Id": 63,
+    "equipo2Id": 109,
+    "jornadas": {
+      "ida": 3,
+      "vuelta": 4
+    }
+  },
+  {
+    "id": 41,
+    "ronda": 2,
+    "equipo1Id": 82,
+    "equipo2Id": 142,
+    "jornadas": {
+      "ida": 3,
+      "vuelta": 4
+    }
+  },
+  {
+    "id": 42,
+    "ronda": 2,
+    "equipo1Id": 94,
+    "equipo2Id": 132,
+    "jornadas": {
+      "ida": 3,
+      "vuelta": 4
+    }
+  },
+  {
+    "id": 43,
+    "ronda": 2,
+    "equipo1Id": 32,
+    "equipo2Id": 116,
+    "jornadas": {
+      "ida": 3,
+      "vuelta": 4
+    }
+  },
+  {
+    "id": 44,
+    "ronda": 2,
+    "equipo1Id": 33,
+    "equipo2Id": 52,
+    "jornadas": {
+      "ida": 3,
+      "vuelta": 4
+    }
+  },
+  {
+    "id": 45,
+    "ronda": 2,
+    "equipo1Id": 21,
+    "equipo2Id": 80,
+    "jornadas": {
+      "ida": 3,
+      "vuelta": 4
+    }
+  },
+  {
+    "id": 46,
+    "ronda": 2,
+    "equipo1Id": 51,
+    "equipo2Id": 88,
+    "jornadas": {
+      "ida": 3,
+      "vuelta": 4
+    }
+  },
+  {
+    "id": 47,
+    "ronda": 2,
+    "equipo1Id": 131,
+    "equipo2Id": 148,
+    "jornadas": {
+      "ida": 3,
+      "vuelta": 4
+    }
+  },
+  {
+    "id": 48,
+    "ronda": 2,
+    "equipo1Id": 118,
+    "equipo2Id": 92,
+    "jornadas": {
+      "ida": 3,
+      "vuelta": 4
+    }
+  },
+  {
+    "id": 49,
+    "ronda": 2,
+    "equipo1Id": 61,
+    "equipo2Id": 59,
+    "jornadas": {
+      "ida": 3,
+      "vuelta": 4
+    }
+  },
+  {
+    "id": 50,
+    "ronda": 2,
+    "equipo1Id": 143,
+    "equipo2Id": 46,
+    "jornadas": {
+      "ida": 3,
+      "vuelta": 4
+    }
+  },
+  {
+    "id": 51,
+    "ronda": 2,
+    "equipo1Id": 42,
+    "equipo2Id": 77,
+    "jornadas": {
+      "ida": 3,
+      "vuelta": 4
+    }
+  },
+  {
+    "id": 52,
+    "ronda": 2,
+    "equipo1Id": 107,
+    "equipo2Id": 60,
+    "jornadas": {
+      "ida": 3,
+      "vuelta": 4
+    }
+  },
+  {
+    "id": 53,
+    "ronda": 2,
+    "equipo1Id": 79,
+    "equipo2Id": 3,
+    "jornadas": {
+      "ida": 3,
+      "vuelta": 4
+    }
+  },
+  {
+    "id": 54,
+    "ronda": 2,
+    "equipo1Id": 97,
+    "equipo2Id": 108,
+    "jornadas": {
+      "ida": 3,
+      "vuelta": 4
+    }
+  },
+  {
+    "id": 55,
+    "ronda": 2,
+    "equipo1Id": 86,
+    "equipo2Id": 99,
+    "jornadas": {
+      "ida": 3,
+      "vuelta": 4
+    }
+  },
+  {
+    "id": 56,
+    "ronda": 2,
+    "equipo1Id": 34,
+    "equipo2Id": 149,
+    "jornadas": {
+      "ida": 3,
+      "vuelta": 4
+    }
+  },
+  {
+    "id": 57,
+    "ronda": 2,
+    "equipo1Id": 89,
+    "equipo2Id": 111,
+    "jornadas": {
+      "ida": 3,
+      "vuelta": 4
+    }
+  },
+  {
+    "id": 58,
+    "ronda": 2,
+    "equipo1Id": 40,
+    "equipo2Id": 120,
+    "jornadas": {
+      "ida": 3,
+      "vuelta": 4
+    }
+  },
+  {
+    "id": 59,
+    "ronda": 2,
+    "equipo1Id": 44,
+    "equipo2Id": 30,
+    "jornadas": {
+      "ida": 3,
+      "vuelta": 4
+    }
+  },
+  {
+    "id": 60,
+    "ronda": 2,
+    "equipo1Id": 84,
+    "equipo2Id": 83,
+    "jornadas": {
+      "ida": 3,
+      "vuelta": 4
+    }
+  },
+  {
+    "id": 61,
+    "ronda": 2,
+    "equipo1Id": 73,
+    "equipo2Id": 78,
+    "jornadas": {
+      "ida": 3,
+      "vuelta": 4
+    }
+  },
+  {
+    "id": 62,
+    "ronda": 2,
+    "equipo1Id": 75,
+    "equipo2Id": 146,
+    "jornadas": {
+      "ida": 3,
+      "vuelta": 4
+    }
+  },
+  {
+    "id": 63,
+    "ronda": 2,
+    "equipo1Id": 62,
+    "equipo2Id": 138,
+    "jornadas": {
+      "ida": 3,
+      "vuelta": 4
+    }
+  },
+  {
+    "id": 64,
+    "ronda": 2,
+    "equipo1Id": 27,
+    "equipo2Id": 65,
+    "jornadas": {
+      "ida": 3,
+      "vuelta": 4
+    }
+  },
+  {
+    "id": 65,
+    "ronda": 2,
+    "equipo1Id": 113,
+    "equipo2Id": 106,
+    "jornadas": {
+      "ida": 3,
+      "vuelta": 4
+    }
+  },
+  {
+    "id": 66,
+    "ronda": 2,
+    "equipo1Id": 110,
+    "equipo2Id": 41,
+    "jornadas": {
+      "ida": 3,
+      "vuelta": 4
+    }
+  },
+  {
+    "id": 67,
+    "ronda": 2,
+    "equipo1Id": 128,
+    "equipo2Id": 16,
+    "jornadas": {
+      "ida": 3,
+      "vuelta": 4
+    }
+  },
+  {
+    "id": 68,
+    "ronda": 2,
+    "equipo1Id": 54,
+    "equipo2Id": 101,
+    "jornadas": {
+      "ida": 3,
+      "vuelta": 4
+    }
+  },
+  {
+    "id": 69,
+    "ronda": 2,
+    "equipo1Id": 127,
+    "equipo2Id": 102,
+    "jornadas": {
+      "ida": 3,
+      "vuelta": 4
+    }
+  },
+  {
+    "id": 70,
+    "ronda": 2,
+    "equipo1Id": 6,
+    "equipo2Id": 2,
+    "jornadas": {
+      "ida": 3,
+      "vuelta": 4
+    }
+  },
+  {
+    "id": 71,
+    "ronda": 2,
+    "equipo1Id": 95,
+    "equipo2Id": 18,
+    "jornadas": {
+      "ida": 3,
+      "vuelta": 4
+    }
+  },
+  {
+    "id": 72,
+    "ronda": 2,
+    "equipo1Id": 12,
+    "equipo2Id": 74,
+    "jornadas": {
+      "ida": 3,
+      "vuelta": 4
+    }
+  },
+  {
+    "id": 73,
+    "ronda": 2,
+    "equipo1Id": 11,
+    "equipo2Id": 13,
+    "jornadas": {
+      "ida": 3,
+      "vuelta": 4
+    }
+  },
+  {
+    "id": 74,
+    "ronda": 2,
+    "equipo1Id": 48,
+    "equipo2Id": 23,
+    "jornadas": {
+      "ida": 3,
+      "vuelta": 4
+    }
+  },
+  {
+    "id": 75,
+    "ronda": 2,
+    "equipo1Id": 17,
+    "equipo2Id": 8,
+    "jornadas": {
+      "ida": 3,
+      "vuelta": 4
+    }
+  },
+  {
+    "id": 76,
+    "ronda": 2,
+    "equipo1Id": 133,
+    "equipo2Id": 90,
+    "jornadas": {
+      "ida": 3,
+      "vuelta": 4
+    }
+  },
+  {
+    "id": 77,
+    "ronda": 2,
+    "equipo1Id": 147,
+    "equipo2Id": 81,
+    "jornadas": {
+      "ida": 3,
+      "vuelta": 4
+    }
+  },
+  {
+    "id": 78,
+    "ronda": 2,
+    "equipo1Id": 4,
+    "equipo2Id": 49,
+    "jornadas": {
+      "ida": 3,
+      "vuelta": 4
+    }
+  },
+  {
+    "id": 79,
+    "ronda": 2,
+    "equipo1Id": 71,
+    "equipo2Id": 98,
+    "jornadas": {
+      "ida": 3,
+      "vuelta": 4
+    }
+  },
+  {
+    "id": 80,
+    "ronda": 2,
+    "equipo1Id": 57,
+    "equipo2Id": 144,
+    "jornadas": {
+      "ida": 3,
+      "vuelta": 4
+    }
+  },
+  {
+    "id": 81,
+    "ronda": 2,
+    "equipo1Id": 126,
+    "equipo2Id": 124,
+    "jornadas": {
+      "ida": 3,
+      "vuelta": 4
+    }
+  },
+  {
+    "id": 82,
+    "ronda": 2,
+    "equipo1Id": 29,
+    "equipo2Id": 50,
+    "jornadas": {
+      "ida": 3,
+      "vuelta": 4
+    }
+  },
+  {
+    "id": 83,
+    "ronda": 2,
+    "equipo1Id": 47,
+    "equipo2Id": 36,
+    "jornadas": {
+      "ida": 3,
+      "vuelta": 4
+    }
+  },
+  {
+    "id": 84,
+    "ronda": 2,
+    "equipo1Id": 58,
+    "equipo2Id": 53,
+    "jornadas": {
+      "ida": 3,
+      "vuelta": 4
+    }
+  },
+  {
+    "id": 85,
+    "ronda": 2,
+    "equipo1Id": 14,
+    "equipo2Id": 38,
+    "jornadas": {
+      "ida": 3,
+      "vuelta": 4
+    }
   }
 ]

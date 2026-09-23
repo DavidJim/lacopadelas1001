@@ -1,4 +1,5 @@
 import jornadas from '../../data/fechasJornadas.json';
+type EstadoJornada = "pasada" | "enJuego" | "futura";
 
 export function obtenerRonda(ronda: number) {
   return jornadas.filter((j) => j.ronda === ronda);
@@ -9,6 +10,22 @@ function parsearFechaNFL(fechaStr: string): Date {
   return new Date(`${ano}-${mes}-${dia}`);
 }
 
+function obtenerEstadoJornada(
+    fechaInicio: Date,
+    fechaFin: Date,
+    now: Date
+): EstadoJornada {
+    if (now < fechaInicio) {
+        return "futura";
+    }
+
+    if (now > fechaFin) {
+        return "pasada";
+    }
+
+    return "enJuego";
+}
+
 export function getJornadaPorNumero(jornada: number) {
     const jornadaEncontrada = jornadas.find((j) => j.jornada === jornada);
     const now = new Date();
@@ -17,8 +34,10 @@ export function getJornadaPorNumero(jornada: number) {
     }
     const fechaInicio = parsearFechaNFL(jornadaEncontrada.fechaInicio);
     const fechaFin = parsearFechaNFL(jornadaEncontrada.fechaFin);
+
+    const estado = obtenerEstadoJornada(fechaInicio, fechaFin, now);
     
-    return { jornada: jornadaEncontrada, enJuego: now >= fechaInicio && now <= fechaFin };
+    return { jornada: jornadaEncontrada, estado };
 }
 
 export function getJornadaActual() {
@@ -30,10 +49,9 @@ export function getJornadaActual() {
 
         return now >= fechaInicio && now <= fechaFin;
     });
-
+    
     if (jornadaActual) {
-        enJuego = true;
-        return { jornada:jornadaActual, enJuego };
+        return { jornada:jornadaActual, estado: "enJuego" as const };
     }
 
     const siguienteJornada = jornadas.find((j) => {
@@ -43,7 +61,7 @@ export function getJornadaActual() {
     });
 
     if (siguienteJornada) {
-        return { jornada: siguienteJornada, enJuego: false };
+        return { jornada: siguienteJornada,  estado: "futura" as const };
     }
 
     const ultimaJornada = jornadas.at(-1);
@@ -52,7 +70,7 @@ export function getJornadaActual() {
         throw new Error('No hay jornadas disponibles');
     }
 
-    return { jornada: ultimaJornada, enJuego: false };
+    return { jornada: ultimaJornada, estado: "pasada" as const };
 }
 
 export function obtenerRondas() {

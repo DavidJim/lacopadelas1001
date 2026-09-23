@@ -5,7 +5,7 @@ import TeamCard from "../components/TeamCard.astro";
 import { obtenerEquipo } from "../lib/equipos";
 
 interface Props {
-  enJuego: boolean;  
+  estado: string;  
   equipo1Id: number;
   equipo2Id: number;
   jornada: number;
@@ -43,7 +43,7 @@ interface Props {
   }
 }
 
-const { enJuego, equipo1Id, equipo2Id, jornada, bestBall1, bestBall2, puntuacionRondaEquipo1, puntuacionRondaEquipo2 } = Astro.props;
+const { estado, equipo1Id, equipo2Id, jornada, bestBall1, bestBall2, puntuacionRondaEquipo1, puntuacionRondaEquipo2 } = Astro.props;
 const equipo1 = obtenerEquipo(equipo1Id);
 const equipo2 = obtenerEquipo(equipo2Id);
 ---
@@ -53,15 +53,15 @@ const equipo2 = obtenerEquipo(equipo2Id);
         >
             <div class="collapse-title px-2 font-semibold">
                 <div class="grid w-full grid-cols-[1fr_auto_1fr] items-center">
-                    <TeamCard equipoId={equipo1Id} puntosRonda={puntuacionRondaEquipo1?.total} puntos={bestBall1?.puntosTotales.toFixed(2)}></TeamCard>
+                    <TeamCard equipoId={equipo1Id} estado={estado} puntosRonda={puntuacionRondaEquipo1?.total} puntos={bestBall1?.puntosTotales.toFixed(2)}/>
                     <div class="divider divider-horizontal text-accent">VS</div>
-                    <TeamCard equipoId={equipo2Id} puntosRonda={puntuacionRondaEquipo2?.total} puntos={bestBall2?.puntosTotales.toFixed(2)}></TeamCard>
+                    <TeamCard equipoId={equipo2Id} estado={estado} puntosRonda={puntuacionRondaEquipo2?.total} puntos={bestBall2?.puntosTotales.toFixed(2)}/>
                 </div>
             </div>
             <div class="hidden md:inline collapse-content text-sm">
                 <div class="grid w-full grid-cols-[1fr_auto_1fr] items-start">
                     <!-- Pasar a componente aparte para que sea más limpio y reutilizable. Recibe lista de jugadores y puntos -->
-                    <div class="card rounded-box min-w-0 text-primary">
+                    <div class="card rounded-box w-[40%] text-primary">
                             <table class="table">
                                 <!-- head -->
                                 <thead>
@@ -74,7 +74,7 @@ const equipo2 = obtenerEquipo(equipo2Id);
                                 <tbody>
                                 <!-- row 1 -->
                                 {bestBall1?.jugadores.map((jugador) => (
-                                    !(jugador.puntos == 0 && enJuego) && (
+                                    !(jugador.puntos == 0 && estado === "enJuego") && (
                                     <tr>
                                         <th>
                                         <div class="text-4xl font-thin opacity-30 tabular-nums">{jugador.posicion}</div>
@@ -111,6 +111,13 @@ const equipo2 = obtenerEquipo(equipo2Id);
                                     </tr>
                                 </tfoot>
                             </table>
+                            {estado === "futura" && (<div class="card bg-info rounded-box grid w-full place-items-center p-2">
+                            <a href={`/equipos/${equipo1Id}`}>
+                            <div class="text-xs font-bold text-primary-content">
+                                Ver equipo completo 
+                            </div>
+                            </a>
+                        </div>)}
                     </div>
                     <div class="divider divider-horizontal text-accent">VS</div>
                     <div class="card rounded-box grid grow place-items-center text-primary">
@@ -126,7 +133,7 @@ const equipo2 = obtenerEquipo(equipo2Id);
                                 <tbody>
                                 <!-- row 1 -->
                                 {bestBall2?.jugadores.map((jugador) => (
-                                    !(jugador.puntos == 0 && enJuego) && (
+                                    !(jugador.puntos == 0 && estado === "enJuego") && (
                                     <tr>
                                         <th>
                                         <div class="text-4xl font-thin opacity-30 tabular-nums">{jugador.posicion}</div>
@@ -163,6 +170,13 @@ const equipo2 = obtenerEquipo(equipo2Id);
                                     </tr>
                                 </tfoot>
                             </table>
+                            {estado === "futura" && (<div class="card bg-info rounded-box grid w-full place-items-center p-2">
+                            <a href={`/equipos/${equipo2Id}`}>
+                            <div class="text-xs font-bold text-primary-content">
+                                Ver equipo completo 
+                            </div>
+                            </a>
+                        </div>)}
                     </div>
                 </div>
             </div>
@@ -182,7 +196,7 @@ const equipo2 = obtenerEquipo(equipo2Id);
                                 <tbody>
                                 <!-- row 1 -->
                                 {bestBall1?.jugadores.map((jugador) => (
-                                     !(jugador.puntos == 0 && enJuego) && (
+                                     !(jugador.puntos == 0 && estado === "enJuego") && (
                                     <tr>
                                         <th>
                                         <div class="text-xl font-thin opacity-60 tabular-nums">{jugador.posicion}</div>
@@ -219,6 +233,13 @@ const equipo2 = obtenerEquipo(equipo2Id);
                                     </tr>
                                 </tfoot>
                             </table>
+                            {estado === "futura" && (<div class="card bg-info rounded-box grid w-full place-items-center p-2">
+                            <a href={`/equipos/${equipo1Id}`}>
+                            <div class="text-xs font-bold text-primary-content">
+                                Ver equipo completo 
+                            </div>
+                            </a>
+                        </div>)}
                     </div>
                     <div class="divider text-accent font-bold">VS</div>
                     <div class="card rounded-box grid grow place-items-center text-primary">
@@ -234,7 +255,7 @@ const equipo2 = obtenerEquipo(equipo2Id);
                                 <tbody>
                                 <!-- row 1 -->
                                 {bestBall2?.jugadores.map((jugador) => (
-                                     !(jugador.puntos == 0 && enJuego) && (
+                                     !(jugador.puntos == 0 && estado === "enJuego") && (
                                     <tr>
                                         <th>
                                         <div class="text-xl font-thin opacity-60 tabular-nums">{jugador.posicion}</div>
@@ -271,6 +292,13 @@ const equipo2 = obtenerEquipo(equipo2Id);
                                     </tr>
                                 </tfoot>
                             </table>
+                            {estado === "futura" && (<div class="card bg-info rounded-box grid w-full place-items-center p-2">
+                            <a href={`/equipos/${equipo2Id}`}>
+                            <div class="text-xs font-bold text-primary-content">
+                                Ver equipo completo 
+                            </div>
+                            </a>
+                        </div>)}
                     </div>
                 </div>
             </div>
