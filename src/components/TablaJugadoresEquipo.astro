@@ -1,13 +1,15 @@
 ---
 import { obtenerEquipo } from "../lib/equipos";
 import { obtenerRoster } from "../lib/rosters"
+import { obtenerPuntos } from "../lib/puntuaciones"
 
 interface Props {
   equipoId: number;
 }
 const { equipoId } = Astro.props;
+const puntos = await obtenerPuntos()
 const equipo = obtenerEquipo(Number(equipoId));
-const roster = equipo ? await obtenerRoster(equipo.id) : null;
+const roster = equipo ? await obtenerRoster(equipo.id, puntos) : null;
 ---
 <table class="table">
   <thead>

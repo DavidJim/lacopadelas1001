@@ -5,9 +5,15 @@ import TeamCard from "../components/TeamCard.astro";
 import { obtenerEquipo } from "../lib/equipos";
 
 interface Props {
-  estado: string;  
-  equipo1Id: number;
-  equipo2Id: number;
+  estado: string;
+  equipo1?: {
+    nombre: string,
+    id: number
+  };
+  equipo2?: {
+    nombre: string,
+    id: number
+  };    
   jornada: number;
   bestBall1?: {
     puntosTotales: number;
@@ -43,9 +49,7 @@ interface Props {
   }
 }
 
-const { estado, equipo1Id, equipo2Id, jornada, bestBall1, bestBall2, puntuacionRondaEquipo1, puntuacionRondaEquipo2 } = Astro.props;
-const equipo1 = obtenerEquipo(equipo1Id);
-const equipo2 = obtenerEquipo(equipo2Id);
+const { estado, equipo1, equipo2, jornada, bestBall1, bestBall2, puntuacionRondaEquipo1, puntuacionRondaEquipo2 } = Astro.props;
 ---
 <div
         tabindex="0"
@@ -53,9 +57,9 @@ const equipo2 = obtenerEquipo(equipo2Id);
         >
             <div class="collapse-title px-2 font-semibold">
                 <div class="grid w-full grid-cols-[1fr_auto_1fr] items-center">
-                    <TeamCard equipoId={equipo1Id} estado={estado} puntosRonda={puntuacionRondaEquipo1?.total} puntos={bestBall1?.puntosTotales.toFixed(2)}/>
+                    <TeamCard equipoId={equipo1?.id} estado={estado} puntosRonda={puntuacionRondaEquipo1?.total} puntos={bestBall1?.puntosTotales.toFixed(2)}/>
                     <div class="divider divider-horizontal text-accent">VS</div>
-                    <TeamCard equipoId={equipo2Id} estado={estado} puntosRonda={puntuacionRondaEquipo2?.total} puntos={bestBall2?.puntosTotales.toFixed(2)}/>
+                    <TeamCard equipoId={equipo2?.id} estado={estado} puntosRonda={puntuacionRondaEquipo2?.total} puntos={bestBall2?.puntosTotales.toFixed(2)}/>
                 </div>
             </div>
             <div class="hidden md:inline collapse-content text-sm">
@@ -112,7 +116,7 @@ const equipo2 = obtenerEquipo(equipo2Id);
                                 </tfoot>
                             </table>
                             {estado === "futura" && (<div class="card bg-info rounded-box grid w-full place-items-center p-2">
-                            <a href={`/equipos/${equipo1Id}`}>
+                            <a href={`/equipos/${equipo1?.id}`}>
                             <div class="text-xs font-bold text-primary-content">
                                 Ver equipo completo 
                             </div>
@@ -171,7 +175,7 @@ const equipo2 = obtenerEquipo(equipo2Id);
                                 </tfoot>
                             </table>
                             {estado === "futura" && (<div class="card bg-info rounded-box grid w-full place-items-center p-2">
-                            <a href={`/equipos/${equipo2Id}`}>
+                            <a href={`/equipos/${equipo2?.id}`}>
                             <div class="text-xs font-bold text-primary-content">
                                 Ver equipo completo 
                             </div>
@@ -234,7 +238,7 @@ const equipo2 = obtenerEquipo(equipo2Id);
                                 </tfoot>
                             </table>
                             {estado === "futura" && (<div class="card bg-info rounded-box grid w-full place-items-center p-2">
-                            <a href={`/equipos/${equipo1Id}`}>
+                            <a href={`/equipos/${equipo1?.id}`}>
                             <div class="text-xs font-bold text-primary-content">
                                 Ver equipo completo 
                             </div>
@@ -293,7 +297,7 @@ const equipo2 = obtenerEquipo(equipo2Id);
                                 </tfoot>
                             </table>
                             {estado === "futura" && (<div class="card bg-info rounded-box grid w-full place-items-center p-2">
-                            <a href={`/equipos/${equipo2Id}`}>
+                            <a href={`/equipos/${equipo2?.id}`}>
                             <div class="text-xs font-bold text-primary-content">
                                 Ver equipo completo 
                             </div>

@@ -13,9 +13,10 @@ const PUNTOS_PATH = "puntos.json";
 
 export async function calcularBestballEquipo(
   equipoId: number,
-  jornada: number
+  jornada: number,
+  puntos: Punto[]
 ) {
-  const puntos = await obtenerPuntos()
+  puntos ??= await obtenerPuntos()
   // Buscar el roster del equipo
   const roster = rosters.find(
     (equipo) => equipo.equipoId === equipoId
@@ -59,19 +60,22 @@ export async function calcularBestballEquipo(
 
 export async function calcularPuntuacionRonda(
     equipoId: number,
-    enfrentamiento: any
+    enfrentamiento: any,
+    puntos: Punto[]
 ) {
     const jornadaIda = enfrentamiento.jornadas.ida;
     const jornadaVuelta = enfrentamiento.jornadas.vuelta;
 
     const bestballIda = await calcularBestballEquipo(
         equipoId,
-        jornadaIda
+        jornadaIda,
+        puntos
     );
 
     const bestballVuelta = await calcularBestballEquipo(
         equipoId,
-        jornadaVuelta
+        jornadaVuelta,
+        puntos
     );
 
     const puntosIda = bestballIda.puntosTotales;
@@ -92,6 +96,7 @@ export async function calcularPuntuacionRonda(
 }
 
 export async function obtenerPuntos(): Promise<Punto[]> {
+  console.log("---------- OBTENIENDO PUNTOS ----------")
   // const result = await get(PUNTOS_PATH, {
   //   access: "private",
   //   useCache: false,

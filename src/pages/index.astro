@@ -2,13 +2,14 @@
 import Layout from "../layouts/Layout.astro";
 import Enfrentamiento from "../components/Enfrentamiento.astro";
 import { getJornadaActual, getJornadaPorNumero, obtenerRonda, obtenerRondas } from "../lib/jornadas";
-import { calcularBestballEquipo, calcularPuntuacionRonda } from "../lib/puntuaciones";
+import { calcularBestballEquipo, calcularPuntuacionRonda, obtenerPuntos } from "../lib/puntuaciones";
 import { obtenerEquipo } from "../lib/equipos";
 import { calcularEstadisticasJornada } from "../lib/estadisticas";
 import enfrentamientosData from "../../data/enfrentamientos.json";
 import EstadisticasJornada from "../components/EstadisticasJornada.astro";
 import "../styles/global.css";
 
+const puntos = await obtenerPuntos();
 const jornadaParam = Astro.url.searchParams.get("semana");
 const jornadaActual = jornadaParam
     ? getJornadaPorNumero(Number(jornadaParam))
@@ -21,10 +22,10 @@ const rondas = obtenerRondas();
 const datosEnfrentamientos = await Promise.all(enfrentamientosRonda.map( async (enfrentamiento) => 
 { const equipo1 = obtenerEquipo( enfrentamiento.equipo1Id ); 
   const equipo2 = obtenerEquipo( enfrentamiento.equipo2Id ); 
-  const bestball1 = await calcularBestballEquipo( enfrentamiento.equipo1Id, jornadaSeleccionada ); 
-  const bestball2 = await calcularBestballEquipo( enfrentamiento.equipo2Id, jornadaSeleccionada );
-  const puntuacionRondaEquipo1 = await calcularPuntuacionRonda(enfrentamiento.equipo1Id, enfrentamiento);
-  const puntuacionRondaEquipo2 = await calcularPuntuacionRonda(enfrentamiento.equipo2Id, enfrentamiento) 
+  const bestball1 = await calcularBestballEquipo( enfrentamiento.equipo1Id, jornadaSeleccionada, puntos); 
+  const bestball2 = await calcularBestballEquipo( enfrentamiento.equipo2Id, jornadaSeleccionada, puntos);
+  const puntuacionRondaEquipo1 = await calcularPuntuacionRonda(enfrentamiento.equipo1Id, enfrentamiento, puntos);
+  const puntuacionRondaEquipo2 = await calcularPuntuacionRonda(enfrentamiento.equipo2Id, enfrentamiento, puntos) 
  
   return { ...enfrentamiento, equipo1, equipo2, bestball1, bestball2, puntuacionRondaEquipo1, puntuacionRondaEquipo2 }; 
 }));
@@ -84,6 +85,33 @@ const estadisticas = calcularEstadisticasJornada( datosEnfrentamientos );
       </div>
       )}
   </section>
+    <div class="m-4 flex justify-center">
+    <label class="input">
+      <svg
+        class="h-[1em] opacity-50"
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 24 24"
+      >
+        <g
+          stroke-linejoin="round"
+          stroke-linecap="round"
+          stroke-width="2.5"
+          fill="none"
+          stroke="currentColor"
+        >
+          <circle cx="11" cy="11" r="8"></circle>
+          <path d="m21 21-4.3-4.3"></path>
+        </g>
+      </svg>
+
+      <input
+        id="buscador-enfrentamientos"
+        type="search"
+        class="grow"
+        placeholder="Buscar enfrentamiento..."
+      />
+    </label>
+  </div>
   {(enfrentamientosRonda.length > 0 && estado !== "futura") && (
     <EstadisticasJornada
       jornada={jornadaSeleccionada}
@@ -112,19 +140,24 @@ const estadisticas = calcularEstadisticasJornada( datosEnfrentamientos );
   }
 
   <!-- ENFRENTAMIENTOS -->
-  <section class="mb-8 text-center">
+  <section id="lista-enfrentamientos" class="enfrentamiento mb-8 text-center">
     {enfrentamientosRonda.length > 0 ? (
       datosEnfrentamientos.map((enfrentamiento) => (
+        <div
+          class="enfrentamiento-item"
+          data-equipos={`${enfrentamiento?.equipo1?.nombre} ${enfrentamiento?.equipo2?.nombre}`}
+        >
         <Enfrentamiento
           estado={estado}        
-	    	  equipo1Id={enfrentamiento.equipo1Id}
-          equipo2Id={enfrentamiento.equipo2Id}
+	    	  equipo1={enfrentamiento.equipo1}
+          equipo2={enfrentamiento.equipo2}
           jornada={jornadaSeleccionada}
           bestBall1={enfrentamiento.bestball1}
           bestBall2={enfrentamiento.bestball2}
           puntuacionRondaEquipo1={enfrentamiento.puntuacionRondaEquipo1}
           puntuacionRondaEquipo2={enfrentamiento.puntuacionRondaEquipo2}
         />
+        </div>
       ))
     ) : (
     <div class="flex h-96 w-full items-center justify-center">
@@ -134,3 +167,22 @@ const estadisticas = calcularEstadisticasJornada( datosEnfrentamientos );
   </section>
 
 </Layout>
+
+<script>
+  const buscador = document.querySelector<HTMLInputElement>("#buscador-enfrentamientos");
+  const enfrentamientos = document.querySelectorAll<HTMLElement>(".enfrentamiento-item");
+
+  buscador?.addEventListener("input", () => {
+    const texto = buscador.value.trim().toLowerCase();
+
+    enfrentamientos.forEach((enfrentamiento) => {
+      const equipos =
+        enfrentamiento.dataset.equipos?.toLowerCase() ?? "";
+
+      enfrentamiento.classList.toggle(
+        "hidden",
+        !equipos.includes(texto)
+      );
+    });
+  });
+</script>

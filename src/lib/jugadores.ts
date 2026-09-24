@@ -2,12 +2,17 @@ import jugadores from "../../data/jugadores.json";
 // import puntos from "../../data/puntos.json";
 import { obtenerPuntos } from "@/lib/puntuaciones";
 import { getJornadaActual, obtenerRonda } from "./jornadas";
+interface Punto {
+  jugadorId: number;
+  jornada: number;
+  puntos: number;
+}
 
 export function obtenerJugador(jugadorId: number) {
   return jugadores.find((jugador) => jugador.id === jugadorId);
 }
-export async function obtenerPuntosJugadorDetalle(jugadorId: number) {
-    const puntos = await obtenerPuntos()
+export async function obtenerPuntosJugadorDetalle(jugadorId: number, puntos?:Punto[]) {
+    puntos ??= await obtenerPuntos();
     const jornadaActual = getJornadaActual();
     const rondaActual = obtenerRonda(jornadaActual.jornada.ronda);
 

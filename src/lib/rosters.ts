@@ -1,8 +1,13 @@
 import rosters from "../../data/rosters.json";
 import jugadores from "../../data/jugadores.json"
 import { obtenerPuntosJugadorDetalle } from "./jugadores";
+interface Punto {
+  jugadorId: number;
+  jornada: number;
+  puntos: number;
+}
 
-export async function obtenerRoster(equipoId: number) {
+export async function obtenerRoster(equipoId: number, puntos: Punto[]) {
     const roster = rosters.find((roster) => roster.equipoId === equipoId);
     if (!roster) return null;
 
@@ -15,7 +20,7 @@ export async function obtenerRoster(equipoId: number) {
     };
 
     const detalleJugadores = await Promise.all(jugadoresDelRoster.map(async(jugador) => {
-        return await obtenerPuntosJugadorDetalle(jugador!.id);
+        return await obtenerPuntosJugadorDetalle(jugador!.id, puntos);
     }));
 
     return { ...roster, jugadores: detalleJugadores };

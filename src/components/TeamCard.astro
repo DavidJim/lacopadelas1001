@@ -4,16 +4,16 @@ import { obtenerEquipo } from "../lib/equipos";
 import type { number } from "astro:schema";
 
 interface Props {
-  equipoId: number;
+  equipoId?: number;
   puntos?: string | number;
   puntosRonda?: string | number;
   estado?: string;
 }
 
 const { equipoId, puntos, puntosRonda, estado } = Astro.props;
-const equipo = obtenerEquipo(equipoId);
+const equipo = equipoId ? obtenerEquipo(equipoId) : 0;
 ---
-    <div class="grid grid-col-1">
+    {equipo && (<div class="grid grid-col-1">
     <div class="card mb-2 p-2 md:p-0 bg-primary text-primary-content rounded-box grid h-26 md:h-20 w-full place-items-center">
         {equipo?.nombre}
         {puntos !== undefined && (
@@ -31,5 +31,5 @@ const equipo = obtenerEquipo(equipoId);
             {puntosRonda} PTS
         </div>
     </div>)}
-    </div>
+    </div>)}
 
