@@ -7152,12 +7152,12 @@
   {
     "jugadorId": 6038,
     "jornada": 6,
-    "puntos": 6.0
+    "puntos": 9.05
   },
   {
     "jugadorId": 8625,
     "jornada": 6,
-    "puntos": 2.7
+    "puntos": 4.3
   },
   {
     "jugadorId": 16242,
@@ -7167,12 +7167,12 @@
   {
     "jugadorId": 12894,
     "jornada": 6,
-    "puntos": 4.05
+    "puntos": 9.5
   },
   {
     "jugadorId": 15516,
     "jornada": 6,
-    "puntos": 2.25
+    "puntos": 6.25
   },
   {
     "jugadorId": 14668,
@@ -7192,12 +7192,12 @@
   {
     "jugadorId": 16890,
     "jornada": 6,
-    "puntos": 11.5
+    "puntos": 24.2
   },
   {
     "jugadorId": 17004,
     "jornada": 6,
-    "puntos": 2.8
+    "puntos": 4.0
   },
   {
     "jugadorId": 15604,
@@ -7207,7 +7207,7 @@
   {
     "jugadorId": 19247,
     "jornada": 6,
-    "puntos": 10.7
+    "puntos": 16.1
   },
   {
     "jugadorId": 19349,
@@ -7217,22 +7217,22 @@
   {
     "jugadorId": 19248,
     "jornada": 6,
-    "puntos": 0.9
+    "puntos": 3.8
   },
   {
     "jugadorId": 18441,
     "jornada": 6,
-    "puntos": 12.3
+    "puntos": 14.0
   },
   {
     "jugadorId": 18174,
     "jornada": 6,
-    "puntos": 0
+    "puntos": 0.4
   },
   {
     "jugadorId": 18523,
     "jornada": 6,
-    "puntos": 1.1
+    "puntos": 4.4
   },
   {
     "jugadorId": 17762,
@@ -7242,17 +7242,17 @@
   {
     "jugadorId": 20153,
     "jornada": 6,
-    "puntos": 1.8
+    "puntos": 3.4
   },
   {
     "jugadorId": 20200,
     "jornada": 6,
-    "puntos": 1.8
+    "puntos": 4.2
   },
   {
     "jugadorId": 10295,
     "jornada": 6,
-    "puntos": 1.7
+    "puntos": 6.9
   },
   {
     "jugadorId": 17738,
@@ -7262,7 +7262,7 @@
   {
     "jugadorId": 17779,
     "jornada": 6,
-    "puntos": 1.4
+    "puntos": 3.6
   },
   {
     "jugadorId": 16281,
@@ -7302,7 +7302,7 @@
   {
     "jugadorId": 18363,
     "jornada": 6,
-    "puntos": 9.1
+    "puntos": 12.0
   },
   {
     "jugadorId": 17725,
@@ -7317,7 +7317,7 @@
   {
     "jugadorId": 17593,
     "jornada": 6,
-    "puntos": 0
+    "puntos": 6.7
   },
   {
     "jugadorId": 19294,
@@ -7357,7 +7357,7 @@
   {
     "jugadorId": 9360,
     "jornada": 6,
-    "puntos": 0
+    "puntos": 8.0
   },
   {
     "jugadorId": 17626,
@@ -7367,7 +7367,7 @@
   {
     "jugadorId": 12140,
     "jornada": 6,
-    "puntos": 0
+    "puntos": 0.5
   },
   {
     "jugadorId": 19404,
@@ -7387,12 +7387,12 @@
   {
     "jugadorId": 16430,
     "jornada": 6,
-    "puntos": 3.6
+    "puntos": 11.3
   },
   {
     "jugadorId": 15679,
     "jornada": 6,
-    "puntos": 8.1
+    "puntos": 10.5
   },
   {
     "jugadorId": 19244,
@@ -7562,7 +7562,7 @@
   {
     "jugadorId": 18392,
     "jornada": 6,
-    "puntos": 0
+    "puntos": 13.4
   },
   {
     "jugadorId": 16236,
@@ -7652,7 +7652,7 @@
   {
     "jugadorId": 13761,
     "jornada": 6,
-    "puntos": 4.05
+    "puntos": 17.15
   },
   {
     "jugadorId": 15532,
@@ -7667,7 +7667,7 @@
   {
     "jugadorId": 12079,
     "jornada": 6,
-    "puntos": 1.7
+    "puntos": 7.9
   },
   {
     "jugadorId": 13775,
@@ -7697,7 +7697,7 @@
   {
     "jugadorId": 16839,
     "jornada": 6,
-    "puntos": 1.6
+    "puntos": 11.7
   },
   {
     "jugadorId": 15601,
@@ -7727,7 +7727,7 @@
   {
     "jugadorId": 16993,
     "jornada": 6,
-    "puntos": 0.3
+    "puntos": 5.6
   },
   {
     "jugadorId": 14767,
@@ -7747,7 +7747,7 @@
   {
     "jugadorId": 18460,
     "jornada": 6,
-    "puntos": 0
+    "puntos": 1.9
   },
   {
     "jugadorId": 19365,
@@ -7772,7 +7772,7 @@
   {
     "jugadorId": 17671,
     "jornada": 6,
-    "puntos": 0
+    "puntos": 6.1
   },
   {
     "jugadorId": 19335,
@@ -7797,7 +7797,7 @@
   {
     "jugadorId": 16947,
     "jornada": 6,
-    "puntos": 0
+    "puntos": 7.9
   },
   {
     "jugadorId": 13764,
@@ -7827,7 +7827,7 @@
   {
     "jugadorId": 17827,
     "jornada": 6,
-    "puntos": 0
+    "puntos": 1.9
   },
   {
     "jugadorId": 20098,
@@ -7842,7 +7842,7 @@
   {
     "jugadorId": 16895,
     "jornada": 6,
-    "puntos": 10.2
+    "puntos": 19.3
   },
   {
     "jugadorId": 13829,
@@ -7852,7 +7852,7 @@
   {
     "jugadorId": 17585,
     "jornada": 6,
-    "puntos": 9.6
+    "puntos": 14.4
   },
   {
     "jugadorId": 12088,
@@ -8047,7 +8047,7 @@
   {
     "jugadorId": 17635,
     "jornada": 6,
-    "puntos": 3.6
+    "puntos": 5.1
   },
   {
     "jugadorId": 18498,
@@ -8542,7 +8542,7 @@
   {
     "jugadorId": 17634,
     "jornada": 6,
-    "puntos": 2.9
+    "puntos": 15.2
   },
   {
     "jugadorId": 12906,
