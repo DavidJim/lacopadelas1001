@@ -1168,5 +1168,165 @@
       "ida": 5,
       "vuelta": 6
     }
+  },
+  {
+    "id": 118,
+    "ronda": 3,
+    "equipo1Id": 112,
+    "equipo2Id": 61,
+    "jornadas": {
+      "ida": 5,
+      "vuelta": 6
+    }
+  },
+  {
+    "id": 119,
+    "ronda": 3,
+    "equipo1Id": 7,
+    "equipo2Id": 29,
+    "jornadas": {
+      "ida": 5,
+      "vuelta": 6
+    }
+  },
+  {
+    "id": 120,
+    "ronda": 3,
+    "equipo1Id": 9,
+    "equipo2Id": 82,
+    "jornadas": {
+      "ida": 5,
+      "vuelta": 6
+    }
+  },
+  {
+    "id": 121,
+    "ronda": 3,
+    "equipo1Id": 33,
+    "equipo2Id": 45,
+    "jornadas": {
+      "ida": 5,
+      "vuelta": 6
+    }
+  },
+  {
+    "id": 122,
+    "ronda": 3,
+    "equipo1Id": 93,
+    "equipo2Id": 69,
+    "jornadas": {
+      "ida": 5,
+      "vuelta": 6
+    }
+  },
+  {
+    "id": 123,
+    "ronda": 3,
+    "equipo1Id": 37,
+    "equipo2Id": 114,
+    "jornadas": {
+      "ida": 5,
+      "vuelta": 6
+    }
+  },
+  {
+    "id": 124,
+    "ronda": 3,
+    "equipo1Id": 118,
+    "equipo2Id": 49,
+    "jornadas": {
+      "ida": 5,
+      "vuelta": 6
+    }
+  },
+  {
+    "id": 125,
+    "ronda": 3,
+    "equipo1Id": 119,
+    "equipo2Id": 121,
+    "jornadas": {
+      "ida": 5,
+      "vuelta": 6
+    }
+  },
+  {
+    "id": 126,
+    "ronda": 3,
+    "equipo1Id": 46,
+    "equipo2Id": 19,
+    "jornadas": {
+      "ida": 5,
+      "vuelta": 6
+    }
+  },
+  {
+    "id": 127,
+    "ronda": 3,
+    "equipo1Id": 44,
+    "equipo2Id": 98,
+    "jornadas": {
+      "ida": 5,
+      "vuelta": 6
+    }
+  },
+  {
+    "id": 128,
+    "ronda": 3,
+    "equipo1Id": 27,
+    "equipo2Id": 12,
+    "jornadas": {
+      "ida": 5,
+      "vuelta": 6
+    }
+  },
+  {
+    "id": 129,
+    "ronda": 3,
+    "equipo1Id": 126,
+    "equipo2Id": 20,
+    "jornadas": {
+      "ida": 5,
+      "vuelta": 6
+    }
+  },
+  {
+    "id": 130,
+    "ronda": 3,
+    "equipo1Id": 36,
+    "equipo2Id": 89,
+    "jornadas": {
+      "ida": 5,
+      "vuelta": 6
+    }
+  },
+  {
+    "id": 131,
+    "ronda": 3,
+    "equipo1Id": 38,
+    "equipo2Id": 86,
+    "jornadas": {
+      "ida": 5,
+      "vuelta": 6
+    }
+  },
+  {
+    "id": 132,
+    "ronda": 3,
+    "equipo1Id": 54,
+    "equipo2Id": 110,
+    "jornadas": {
+      "ida": 5,
+      "vuelta": 6
+    }
+  },
+  {
+    "id": 133,
+    "ronda": 3,
+    "equipo1Id": 32,
+    "equipo2Id": 57,
+    "jornadas": {
+      "ida": 5,
+      "vuelta": 6
+    }
   }
 ]
