@@ -1408,5 +1408,45 @@
       "ida": 9,
       "vuelta": 10
     }
+  },
+  {
+    "id": 142,
+    "ronda": 6,
+    "equipo1Id": 12,
+    "equipo2Id": 7,
+    "jornadas": {
+      "ida": 11,
+      "vuelta": 12
+    }
+  },
+  {
+    "id": 143,
+    "ronda": 6,
+    "equipo1Id": 121,
+    "equipo2Id": 38,
+    "jornadas": {
+      "ida": 11,
+      "vuelta": 12
+    }
+  },
+  {
+    "id": 144,
+    "ronda": 6,
+    "equipo1Id": 45,
+    "equipo2Id": 36,
+    "jornadas": {
+      "ida": 11,
+      "vuelta": 12
+    }
+  },
+  {
+    "id": 145,
+    "ronda": 6,
+    "equipo1Id": 37,
+    "equipo2Id": 98,
+    "jornadas": {
+      "ida": 11,
+      "vuelta": 12
+    }
   }
 ]
